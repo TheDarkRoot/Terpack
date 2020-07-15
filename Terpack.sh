@@ -9,7 +9,7 @@ pkg install curl -y
 pkg install ruby -y
 pkg install php -y
 pkg install toilet -y
-pkg install vim
+pkg install vim -y
 pkg install nano
 pkg install unzip
 pkg install figlet
@@ -21,7 +21,7 @@ pkg install cat
 pip install --upgrade pip
 pip install pillow
 gem install lolcat
-apt update -y
+apt update
 apt upgrade -y
 cd $HOME
 rm -rf TDR-X
