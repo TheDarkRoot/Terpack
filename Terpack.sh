@@ -54,7 +54,7 @@ cd ..
 git clone https://github.com/TheSpeedX/TBomb.git
 cd TBomb
 chmod +x *
-cd..
+cd ..
 git clone https://github.com/thewhiteh4t/Seeker.git
 chmod +x *
 cd ..
@@ -65,6 +65,7 @@ cd ..
 git clone https://github.com/exiftool/exiftool.git
 cd exiftool
 chmod +x *
+cd ..
 git clone https://github.com/lightos/credmap.git
 cd credmap
 chmod +x *
