@@ -23,12 +23,12 @@ pip install pillow
 gem install lolcat
 apt update
 apt upgrade -y
-cd $HOME
+cd /data/data/com.termux/files/home
 rm -rf TDR-X
 rm -rf Hack-X
 mkdir TDR-X
 chmod +x Terpack.sh
-cd TDR-X
+cd /data/data/com.termux/files/home/TDR-X
 curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.py -o Terkey.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Termup/master/Termup.sh -o Termup.sh
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
@@ -39,46 +39,45 @@ curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o
 curl https://raw.githubusercontent.com/TheDarkRoot/Fbinfos/master/Fbinfos.py -o Fbinfos.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc
 chmod +x *
-cd $HOME
+cd /data/data/com.termux/files/home
 mkdir Hack-X
-cd Hack-X
+cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/CiKu370/Osif.git
 cd Osif
 chmod +x *
 pip2 install -r requirements.txt
-cd ..
+cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/lulz3xploit/LittleBrother.git
 cd LittleBrother
 chmod +x *
-cd ..
+cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/TheSpeedX/TBomb.git
 cd TBomb
 chmod +x *
-cd ..
+cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/thewhiteh4t/Seeker.git
 chmod +x *
-cd ..
+cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/xHak9x/SocialPhish.git
 cd SocialPhish
 chmod +x *
-cd ..
+cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/exiftool/exiftool.git
 cd exiftool
 chmod +x *
-cd ..
+cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/lightos/credmap.git
 cd credmap
 chmod +x *
-cd ..
-cd $HOME
-cd TDR-X
+cd /data/data/com.termux/files/home
+cd /data/data/com.termux/files/home/TDR-X
 python Terkey.py
 cd /data/data/com.termux/files/usr/etc
 rm -rm bash.bashrc
-cd $HOME
-cd TDR-X
+cd /data/data/com.termux/files/home/TDR-X
 cp bash.bashrc /data/data/com.termux/files/usr/etc
-cd $HOME
+cd /data/data/com.termux/files/home
+exit
 
 
 banner() {
