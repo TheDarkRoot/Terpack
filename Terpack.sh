@@ -62,10 +62,6 @@ git clone https://github.com/xHak9x/SocialPhish.git
 cd SocialPhish
 chmod +x *
 cd /data/data/com.termux/files/home/Hack-X
-git clone https://github.com/exiftool/exiftool.git
-cd exiftool
-chmod +x *
-cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/lightos/credmap.git
 cd credmap
 chmod +x *
