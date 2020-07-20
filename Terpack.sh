@@ -65,6 +65,10 @@ cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/lightos/credmap.git
 cd credmap
 chmod +x *
+cd /data/data/com.termux/files/home/Hack-X
+git clone https://github.com/rajkumardusad/IP-Tracer.git
+cd IP-Tracer
+chmod +x *
 cd /data/data/com.termux/files/usr/etc
 rm -rm bash.bashrc
 cd /data/data/com.termux/files/home/TDR-X
@@ -74,4 +78,3 @@ rm -rf Terpack.sh
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
 cd /data/data/com.termux/files/home/TDR-X
 python Terkey.py
-exit
