@@ -65,27 +65,13 @@ cd /data/data/com.termux/files/home/Hack-X
 git clone https://github.com/lightos/credmap.git
 cd credmap
 chmod +x *
-cd /data/data/com.termux/files/home
-cd /data/data/com.termux/files/home/TDR-X
-python Terkey.py
 cd /data/data/com.termux/files/usr/etc
 rm -rm bash.bashrc
 cd /data/data/com.termux/files/home/TDR-X
 cp bash.bashrc /data/data/com.termux/files/usr/etc
 cd /data/data/com.termux/files/home
+rm -rf Terpack.sh
+curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
+cd /data/data/com.termux/files/home/TDR-X
+python Terkey.py
 exit
-
-
-banner() {
-printf "\n"
-printf "\033[36;1m            UserID\033[32;1m v1.0.0 \e[0m\n"
-printf "\033[33;1m #     #\033[0;1m ####################\033[33;1m ### ######  \e[0m\n"
-printf "\033[33;1m #     #  ####  ###### #####   #  #     # \e[0m\n"
-printf "\033[33;1m #     # #      #      #    #  #  #     # \e[0m\n"
-printf "\033[33;1m #     #  ####  #####  #    #  #  #     # \e[0m\n"
-printf "\033[33;1m #     #      # #      #####   #  #     # \e[0m\n"
-printf "\033[33;1m #     # #    # #      #   #   #  #     # \e[0m\n"
-printf "\033[33;1m  #####   ####  ###### #    # ### ######  \e[0m\n"
-printf "\033[0;1m ############[\033[36;1m TheDarkRoot\033[0;1m ]############# \e[0m\n"
-printf "\n"
-}
