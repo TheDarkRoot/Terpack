@@ -63,7 +63,7 @@ def banner():
     print(CC+'    #    #    # #####          #    #    # #    # #      ')
     print(CC+'    #    #    # #   #          #    #    # #    # #      ')
     print(CC+'    #    #####  #    #         #     ####   ####  ###### ')
-    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]#################### ')
+    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]####################\n ')
 
 if __name__=='__main__':
     banner()
