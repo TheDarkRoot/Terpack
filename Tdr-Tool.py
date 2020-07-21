@@ -56,16 +56,14 @@ def setup():
 
 def banner():
     os.system('clear')
-    print(GG+''.center(40))
-    print(CC+' #######'+YY+' ##################'+CC+' #######'+YY+' #################### '.center(40))
-    print(CC+'    #    #####  #####          #     ####   ####  #      '.center(40))
-    print(CC+'    #    #    # #    #         #    #    # #    # #      '.center(40))
-    print(CC+'    #    #    # #    #  #####  #    #    # #    # #      '.center(40))
-    print(CC+'    #    #    # #####          #    #    # #    # #      '.center(40))
-    print(CC+'    #    #    # #   #          #    #    # #    # #      '.center(40))
-    print(CC+'    #    #####  #    #         #     ####   ####  ###### '.center(40))
-    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]#################### '.center(40))
-    print(GG+''.center(40))
+    print(CC+' #######'+YY+' ##################'+CC+' #######'+YY+' #################### ')
+    print(CC+'    #    #####  #####          #     ####   ####  #      ')
+    print(CC+'    #    #    # #    #         #    #    # #    # #      ')
+    print(CC+'    #    #    # #    #  #####  #    #    # #    # #      ')
+    print(CC+'    #    #    # #####          #    #    # #    # #      ')
+    print(CC+'    #    #    # #   #          #    #    # #    # #      ')
+    print(CC+'    #    #####  #    #         #     ####   ####  ###### ')
+    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]#################### ')
 
 if __name__=='__main__':
     banner()
