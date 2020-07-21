@@ -32,7 +32,7 @@ cd /data/data/com.termux/files/home/Tdr-Tool
 curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.py -o Terkey.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Termup/master/Termup.sh -o Termup.sh
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
-curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/TheDarkRoot.py -o TheDarkRoot.py
+curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Tdr-Tool.py -o Tdr-Tool.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o Hashgen.py
 curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh
@@ -40,4 +40,4 @@ curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o
 curl https://raw.githubusercontent.com/TheDarkRoot/Fbinfos/master/Fbinfos.py -o Fbinfos.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc
 chmod +x *
-python TheDarkRoot.py
+python Tdr-Tool.py

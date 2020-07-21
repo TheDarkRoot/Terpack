@@ -27,7 +27,7 @@ def setup():
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.py -o Terkey.py')
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Termup/master/Termup.sh -o Termup.sh')
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh')
-    os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/TheDarkRoot.py -o TheDarkRoot.py')
+    os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Tdr-Tool.py -o Tdr-Tool.py')
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py')
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o Hashgen.py')
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh')
