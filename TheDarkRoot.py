@@ -75,14 +75,16 @@ def setup():
 
 def banner():
     os.system('clear')
-    print(GG+' ####### ################## ####### #################### '.center(40))
-    print(GG+'    #    #####  #####          #     ####   ####  #    # '.center(40))
-    print(GG+' #  #    #    # #    #         #    #    # #    # #    # '.center(40))
-    print(GG+' #  #    #    # #    #  #####  #    #    # #    # #    # '.center(40))
-    print(GG+' #  #    #    # #####          #    #    # #    # #    # '.center(40))
-    print(GG+' #  #    #    # #   #          #    #    # #    # #      '.center(40))
-    print(GG+' #  #    #####  #    #         #     ####   ####  ###### '.center(40))
+    print(GG+''.center(40))
+    print(GG+' #######                    #######                      '.center(40))
+    print(GG+'    #    #####  #####          #     ####   ####  #      '.center(40))
+    print(GG+'    #    #    # #    #         #    #    # #    # #      '.center(40))
+    print(GG+'    #    #    # #    #  #####  #    #    # #    # #      '.center(40))
+    print(GG+'    #    #    # #####          #    #    # #    # #      '.center(40))
+    print(GG+'    #    #    # #   #          #    #    # #    # #      '.center(40))
+    print(GG+'    #    #####  #    #         #     ####   ####  ###### '.center(40))
     print(GG+' ####################[ TheDarkRoot ]#################### '.center(40))
+    print(GG+''.center(40))
 
 if __name__=='__main__':
     banner()
