@@ -29,16 +29,14 @@ def setup():
 
 def banner():
     os.system('clear')
-    print(CC+'')
-    print(CC+' #######'+YY+' ##################'+CC+' #######'+YY+' #################### ')
+    print(CC+'\n #######'+YY+' ##################'+CC+' #######'+YY+' #################### ')
     print(CC+'    #    #####  #####          #     ####   ####  #      ')
     print(CC+'    #    #    # #    #         #    #    # #    # #      ')
     print(CC+'    #    #    # #    #  #####  #    #    # #    # #      ')
     print(CC+'    #    #    # #####          #    #    # #    # #      ')
     print(CC+'    #    #    # #   #          #    #    # #    # #      ')
     print(CC+'    #    #####  #    #         #     ####   ####  ###### ')
-    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]#################### ')
-    print(CC+'')
+    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]####################\n ')
 
 if __name__=='__main__':
     banner()
@@ -47,7 +45,7 @@ if __name__=='__main__':
     t.start()
     while t.is_alive():
         for i in "-\|/-\|/":
-            print(YY+'\r \n> Loading... '+i+' ',end="",flush=True)
+            print(YY+'\r > Loading... '+i+' ',end="",flush=True)
             sleep(0.1)
     banner()
-    print(GG+'\n >>> TheDarkRoot package installed.\n')
+    print(GG+' >>> TheDarkRoot package installed.\n')
