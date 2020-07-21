@@ -77,4 +77,51 @@ cd /data/data/com.termux/files/home
 rm -rf Terpack.sh
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
 cd /data/data/com.termux/files/home/TDR-X
-python Terkey.py
+
+# Color
+if sys.platform == "linux" or sys.platform == "linux2":
+
+	BB = "\033[34;1m" # Blue Light
+	YY = "\033[33;1m" # Yellow Light
+	GG = "\033[32;1m" # Green Light
+	WW = "\033[0;1m"  # White Light
+	RR = "\033[31;1m" # Red Light
+	CC = "\033[36;1m" # Cyan Light
+	MM = "\033[35;1m" # Magenta Light
+	B = "\033[34;1m"  # Blue
+	Y = "\033[33;1m"  # Yellow
+	G = "\033[32;1m"  # Green
+	W = "\033[0;1m"   # White
+	R = "\033[31;1m"  # Red
+	C = "\033[36;1m"  # Cyan
+	M = "\033[35;1m"  # Magenta
+
+	# Random Color
+	rand = (BB,YY,GG,RR,CC)
+	P = random.choice(rand)
+}
+
+def banner():
+	os.system('clear')
+   	print (CC+'\n              Hash Cracker'+GG+' v1.0.0')
+	print (P+'  #      #'+WW+' ##################################')
+	print (P+'  #      #   ##    ####  #    # ###### #####  ')
+	print (P+'  #      #  #  #  #      #    # #      #    # ')
+	print (P+'  ######## #    #  ####  ###### #####  #    # ')
+	print (P+'  #      # ######      # #    # #      #####  ')
+	print (P+'  #      # #    # #    # #    # #      #   #  ')
+	print (P+'  #      # #    #  ####  #    # ###### #    # ')
+	print (WW+'  ##############['+CC+' TheDarkRoot'+WW+' ]############## ')
+	
+def info():
+
+	print (GG+"\n 0{======================"+WW+" INFO "+GG+"=======================}0")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Name     "+CC+":"+WW+" Hasher"+GG+"                               |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Code     "+CC+":"+WW+" Python2"+GG+"                              |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Version  "+CC+":"+WW+" v1.0.0 (Alpha)"+GG+"                       |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Author   "+CC+":"+WW+" TheDarkRoot"+GG+"                          |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Email    "+CC+":"+WW+" 7H3D4RKR007@gmail.com"+GG+"                |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Github   "+CC+":"+WW+" https://github.com/TheDarkRoot"+GG+"       |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Telegram "+CC+":"+WW+" @TDarkRoot (https://t.me/TDarkRoot)"+GG+"  |")
+	print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Team     "+CC+":"+WW+" TurkHackTeam (www.turkhackteam.org)"+GG+"  |")
+	print (GG+" 0{===================================================}0\n")
