@@ -24,11 +24,11 @@ gem install lolcat
 apt update
 apt upgrade -y
 cd /data/data/com.termux/files/home
-rm -rf TDR-X
-rm -rf Hack-X
-mkdir TDR-X
+rm -rf Tdr-Tool
+rm -rf Hack-Tool
+mkdir Tdr-Tool
 chmod +x Terpack.sh
-cd /data/data/com.termux/files/home/TDR-X
+cd /data/data/com.termux/files/home/Tdr-Tool
 curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.py -o Terkey.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Termup/master/Termup.sh -o Termup.sh
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
