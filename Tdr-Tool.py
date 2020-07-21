@@ -46,5 +46,6 @@ if __name__=='__main__':
         for i in "-\|/-\|/":
             print(YY+'\r > Loading... '+i+' ',end="",flush=True)
             sleep(0.1)
+    os.system('clear')
     banner()
     print(GG+' >>> TheDarkRoot package installed.\n')
