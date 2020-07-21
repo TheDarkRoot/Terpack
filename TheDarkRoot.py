@@ -8,8 +8,6 @@ WW = "\033[0;1m"  # White Light
 RR = "\033[31;1m" # Red Light
 CC = "\033[36;1m" # Cyan lLight
 MM = "\033[35;1m" # Magenta Light
-rand = (BB,YY,GG,RR,CC)
-P = random.choice(rand)
 
 def setup():
     try:
@@ -22,6 +20,7 @@ def setup():
     os.system('cd /data/data/com.termux/files/home')
     os.system('rm -rf TDR-X')
     os.system('mkdir TDR-X')
+    os.system('mkdir Hack-X')
     os.system('chmod +x Terpack.sh')
     os.system('cd /data/data/com.termux/files/home/TDR-X')
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.py -o Terkey.py')
@@ -36,7 +35,6 @@ def setup():
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc')
     os.system('chmod +x *')
     os.system('cd /data/data/com.termux/files/home')
-    os.system('mkdir Hack-X')
     os.system('cd /data/data/com.termux/files/home/Hack-X')
     os.system('git clone https://github.com/CiKu370/Osif.git')
     os.system('cd Osif')
