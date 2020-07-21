@@ -1,14 +1,27 @@
 import os
 from time import sleep
 
-BB = "\033[34;1m" # Blue Light
-YY = "\033[33;1m" # Yellow Light
-GG = "\033[32;1m" # Green Light
-WW = "\033[0;1m"  # White Light
-RR = "\033[31;1m" # Red Light
-CC = "\033[36;1m" # Cyan lLight
-MM = "\033[35;1m" # Magenta Light
+# Color
+if sys.platform == "linux" or sys.platform == "linux2":
 
+	BB = "\033[34;1m" # Blue Light
+	YY = "\033[33;1m" # Yellow Light
+	GG = "\033[32;1m" # Green Light
+	WW = "\033[0;1m"  # White Light
+	RR = "\033[31;1m" # Red Light
+	CC = "\033[36;1m" # Cyan Light
+	MM = "\033[35;1m" # Magenta Light
+	B = "\033[34;1m"  # Blue
+	Y = "\033[33;1m"  # Yellow
+	G = "\033[32;1m"  # Green
+	W = "\033[0;1m"   # White
+	R = "\033[31;1m"  # Red
+	C = "\033[36;1m"  # Cyan
+	M = "\033[35;1m"  # Magenta
+
+	# Random Color
+	rand = (BB,YY,GG,RR,CC)
+	P = random.choice(rand)
 def setup():
     try:
         os.mkdir('/data/data/com.termux/files/home/.termux')
