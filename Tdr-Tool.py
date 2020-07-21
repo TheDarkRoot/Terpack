@@ -17,6 +17,8 @@ def setup():
     key = "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"
     open('/data/data/com.termux/files/home/.termux/termux.properties','w').write(key)
     os.system('termux-reload-settings')
+    os.system('cd')
+    os.system('mkdir Hack-Tool')
     os.system('cd /data/data/com.termux/files/home/Hack-Tool')
     os.system('git clone https://github.com/CiKu370/Osif.git')
     os.system('cd Osif')
@@ -63,7 +65,7 @@ def banner():
     print(CC+'    #    #    # #####          #    #    # #    # #      ')
     print(CC+'    #    #    # #   #          #    #    # #    # #      ')
     print(CC+'    #    #####  #    #         #     ####   ####  ###### ')
-    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]####################\n ')
+    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]#################### ')
 
 if __name__=='__main__':
     banner()
@@ -72,7 +74,7 @@ if __name__=='__main__':
     t.start()
     while t.is_alive():
         for i in "-\|/-\|/":
-            print(YY+'\r > Loading... '+i+' ',end="",flush=True)
+            print(YY+'\r \n> Loading... '+i+' ',end="",flush=True)
             sleep(0.1)
     banner()
-    print(GG+' >>> TheDarkRoot package installed.\n')
+    print(GG+'\n >>> TheDarkRoot package installed.\n')
