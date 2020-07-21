@@ -12,7 +12,6 @@ MM = "\033[35;1m" # Magenta Light
 def setup():
     try:
         os.mkdir('/data/data/com.termux/files/home/.termux')
-
     os.system('termux-reload-settings')
 
 def banner():
