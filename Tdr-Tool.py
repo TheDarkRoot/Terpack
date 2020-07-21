@@ -17,6 +17,7 @@ def setup():
     key = "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"
     open('/data/data/com.termux/files/home/.termux/termux.properties','w').write(key)
     os.system('termux-reload-settings')
+    os.system('cd /data/data/com.termux/files/home')
     os.system('mkdir Hack-Tool')
     os.system('cd /data/data/com.termux/files/home/Hack-Tool')
     os.system('git clone https://github.com/CiKu370/Osif.git')
@@ -75,7 +76,7 @@ if __name__=='__main__':
     t.start()
     while t.is_alive():
         for i in "-\|/-\|/":
-            print('\r > Loading... '+i+' ',end="",flush=True)
+            print(YY+'\r > Loading... '+i+' ',end="",flush=True)
             sleep(0.1)
     banner()
-    print(YY+' >>> TheDarkRoot package installed.\n')
+    print(GG+' >>> TheDarkRoot package installed.\n')
