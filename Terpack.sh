@@ -41,4 +41,33 @@ curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o
 curl https://raw.githubusercontent.com/TheDarkRoot/Fbinfos/master/Fbinfos.py -o Fbinfos.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc
 chmod +x *
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/CiKu370/Osif.git
+cd Osif
+chmod +x *
+pip2 install -r requirements.txt
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/lulz3xploit/LittleBrother.git
+cd LittleBrother
+chmod +x *
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/TheSpeedX/TBomb.git
+cd TBomb
+chmod +x *
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/thewhiteh4t/Seeker.git
+chmod +x *
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/xHak9x/SocialPhish.git
+cd SocialPhish
+chmod +x *
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/lightos/Credmap.git
+cd Credmap
+chmod +x *
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/rajkumardusad/IP-Tracer.git
+cd IP-Tracer
+chmod +x *
+cd /data/data/com.termux/files/home/Tdr-Tool
 python Tdr-Tool.py
