@@ -75,13 +75,13 @@ def setup():
 
 def banner():
     os.system('clear')
-    print(GG+' #######                    #######                      '.center(40))
-    print(GG+'    #    #####  #####          #     ####   ####  #      '.center(40))
-    print(GG+'    #    #    # #    #         #    #    # #    # #      '.center(40))
-    print(GG+'    #    #    # #    #  #####  #    #    # #    # #      '.center(40))
-    print(GG+'    #    #    # #####          #    #    # #    # #      '.center(40))
-    print(GG+'    #    #    # #   #          #    #    # #    # #      '.center(40))
-    print(GG+'    #    #####  #    #         #     ####   ####  ###### '.center(40))
+    print(GG+' ####### ################## ####### #################### '.center(40))
+    print(GG+'    #    #####  #####          #     ####   ####  #    # '.center(40))
+    print(GG+' #  #    #    # #    #         #    #    # #    # #    # '.center(40))
+    print(GG+' #  #    #    # #    #  #####  #    #    # #    # #    # '.center(40))
+    print(GG+' #  #    #    # #####          #    #    # #    # #    # '.center(40))
+    print(GG+' #  #    #    # #   #          #    #    # #    # #      '.center(40))
+    print(GG+' #  #    #####  #    #         #     ####   ####  ###### '.center(40))
     print(GG+' ####################[ TheDarkRoot ]#################### '.center(40))
 
 if __name__=='__main__':
@@ -91,7 +91,7 @@ if __name__=='__main__':
     t.start()
     while t.is_alive():
         for i in "-\|/-\|/":
-            print('\rLoading... '+i+' ',end="",flush=True)
+            print('\r > Loading... '+i+' ',end="",flush=True)
             sleep(0.1)
     banner()
-    print(YY+' >>> TheDarkRoot package installed.')
+    print(YY+'\n >>> TheDarkRoot package installed.\n')
