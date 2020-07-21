@@ -95,4 +95,4 @@ if __name__=='__main__':
             print('\r > Loading... '+i+' ',end="",flush=True)
             sleep(0.1)
     banner()
-    print(YY+'\n >>> TheDarkRoot package installed.\n')
+    print(YY+' >>> TheDarkRoot package installed.\n')
