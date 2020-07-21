@@ -40,6 +40,7 @@ curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o Us
 curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt
 curl https://raw.githubusercontent.com/TheDarkRoot/Fbinfos/master/Fbinfos.py -o Fbinfos.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/TheDarkRoot.py -o TheDarkRoot.py
+curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/TheDarkRoot.py -o T.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc
 chmod +x *
-python TheDarkRoot.py
+python T.py
