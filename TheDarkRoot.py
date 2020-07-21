@@ -12,7 +12,7 @@ MM = "\033[35;1m" # Magenta Light
 def setup():
     try:
         os.mkdir('cd /data/data/com.termux/files/home')
-		os.mkdir('rm -rf TDR-X')
+	os.mkdir('rm -rf TDR-X')
 		os.mkdir('rm -rf Hack-X')
 		os.mkdir('mkdir TDR-X')
 		os.mkdir('chmod +x Terpack.sh')
