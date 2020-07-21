@@ -8,6 +8,8 @@ WW = "\033[0;1m"  # White Light
 RR = "\033[31;1m" # Red Light
 CC = "\033[36;1m" # Cyan lLight
 MM = "\033[35;1m" # Magenta Light
+rand = (BB,YY,GG,RR,CC)
+P = random.choice(rand)
 
 def setup():
     try:
@@ -76,13 +78,13 @@ def setup():
 def banner():
     os.system('clear')
     print(CC+'Loading TheDarkRoot package...\n'.center(40))
-    print(GG+' ####### ############# ###### ##################### ###### #################### '.center(40))
-    print(GG+'    #    #    # ###### #     #   ##   #####  #    # #     #  ####   ####  ##### '.center(40))
-    print(GG+'    #    #    # #      #     #  #  #  #    # #   #  #     # #    # #    #   #   '.center(40))
-    print(GG+'    #    ###### #####  #     # #    # #    # ####   ######  #    # #    #   #   '.center(40))
-    print(GG+'    #    #    # #      #     # ###### #####  #  #   #   #   #    # #    #   #   '.center(40))
-    print(GG+'    #    #    # #      #     # #    # #   #  #   #  #    #  #    # #    #   #   '.center(40))
-    print(GG+'    #    #    # ###### ######  #    # #    # #    # #     #  ####   ####    #   '.center(40))
+    print(GG+' #######                     #######                      '.center(40))
+    print(GG+'    #    #####  #####           #     ####   ####  #      '.center(40))
+    print(GG+'    #    #    # #    #          #    #    # #    # #      '.center(40))
+    print(GG+'    #    #    # #    # #####    #    #    # #    # #      '.center(40))
+    print(GG+'    #    #    # #####           #    #    # #    # #      '.center(40))
+    print(GG+'    #    #    # #   #           #    #    # #    # #      '.center(40))
+    print(GG+'    #    #####  #    #          #     ####   ####  ###### '.center(40))
     print("".join([i for i in "\n"*1]))
 
 if __name__=='__main__':
@@ -92,7 +94,7 @@ if __name__=='__main__':
     t.start()
     while t.is_alive():
         for i in "-\|/-\|/":
-            print('\rPlease wait '+i+' ',end="",flush=True)
+            print('\rLoading... '+i+' ',end="",flush=True)
             sleep(0.1)
     banner()
-    print(YY+'TheDarkRoot (https://github.com/TheDarkRoot)')
+    print(YY+'TheDarkRoot package installed.')
