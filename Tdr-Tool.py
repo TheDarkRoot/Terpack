@@ -17,8 +17,6 @@ def setup():
     key = "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]"
     open('/data/data/com.termux/files/home/.termux/termux.properties','w').write(key)
     os.system('termux-reload-settings')
-    os.system('cd /data/data/com.termux/files/home')
-    os.system('mkdir Hack-Tool')
     os.system('cd /data/data/com.termux/files/home/Hack-Tool')
     os.system('git clone https://github.com/CiKu370/Osif.git')
     os.system('cd Osif')
@@ -59,14 +57,14 @@ def setup():
 def banner():
     os.system('clear')
     print(GG+''.center(40))
-    print(GG+' #######                    #######                      '.center(40))
-    print(GG+'    #    #####  #####          #     ####   ####  #      '.center(40))
-    print(GG+'    #    #    # #    #         #    #    # #    # #      '.center(40))
-    print(GG+'    #    #    # #    #  #####  #    #    # #    # #      '.center(40))
-    print(GG+'    #    #    # #####          #    #    # #    # #      '.center(40))
-    print(GG+'    #    #    # #   #          #    #    # #    # #      '.center(40))
-    print(GG+'    #    #####  #    #         #     ####   ####  ###### '.center(40))
-    print(GG+' ####################[ TheDarkRoot ]#################### '.center(40))
+    print(CC+' #######'+YY+' ##################'+CC+' #######'+YY+' #################### '.center(40))
+    print(CC+'    #    #####  #####          #     ####   ####  #      '.center(40))
+    print(CC+'    #    #    # #    #         #    #    # #    # #      '.center(40))
+    print(CC+'    #    #    # #    #  #####  #    #    # #    # #      '.center(40))
+    print(CC+'    #    #    # #####          #    #    # #    # #      '.center(40))
+    print(CC+'    #    #    # #   #          #    #    # #    # #      '.center(40))
+    print(CC+'    #    #####  #    #         #     ####   ####  ###### '.center(40))
+    print(YY+' ####################['+GG+' TheDarkRoot'+YY+' ]#################### '.center(40))
     print(GG+''.center(40))
 
 if __name__=='__main__':

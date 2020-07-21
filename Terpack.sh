@@ -27,6 +27,7 @@ cd /data/data/com.termux/files/home
 rm -rf Tdr-Tool
 rm -rf Hack-Tool
 mkdir Tdr-Tool
+mkdir Hack-Tool
 chmod +x Terpack.sh
 cd /data/data/com.termux/files/home/Tdr-Tool
 curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.py -o Terkey.py
