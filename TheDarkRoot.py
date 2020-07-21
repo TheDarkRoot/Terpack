@@ -35,7 +35,6 @@ def setup():
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Fbinfos/master/Fbinfos.py -o Fbinfos.py')
     os.system('curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc')
     os.system('chmod +x *')
-    os.system('cd /data/data/com.termux/files/home')
     os.system('cd /data/data/com.termux/files/home/Hack-Tool')
     os.system('git clone https://github.com/CiKu370/Osif.git')
     os.system('cd Osif')
