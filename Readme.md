@@ -54,9 +54,7 @@ apt upgrade -y
 
 > ***Open the terminal and type following commands.***
 ```
-$ pkg install git
-$ git clone https://github.com/TheDarkRoot/Terpack.git
-$ cd TerPack
+$ curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
 $ chmod +x TerPack.sh
 $ ./TerPack.sh
 ```
