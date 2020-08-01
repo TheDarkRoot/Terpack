@@ -69,5 +69,15 @@ cd /data/data/com.termux/files/home/Hack-Tool
 git clone https://github.com/rajkumardusad/IP-Tracer.git
 cd IP-Tracer
 chmod +x *
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/htr-tech/Nexphisher.git
+cd Nexphisher
+chmod +x *
+bash setup
+cd /data/data/com.termux/files/home/Hack-Tool
+git clone https://github.com/sandiwijayani1/Spamwa.git
+cd Spamwa
+chmod +x *
+pip install requests
 cd /data/data/com.termux/files/home/Tdr-Tool
 python Tdr-Tool.py
