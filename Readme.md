@@ -26,6 +26,7 @@ The author of this project is not responsible for any possible harm caused by th
 - [x] Package list:
 
 ```
+
 pkg install git -y
 pkg install python -y
 pkg install python2 -y
@@ -66,6 +67,7 @@ curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o 
 curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh
 curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt
 curl https://raw.githubusercontent.com/TheDarkRoot/Fbinfos/master/Fbinfos.py -o Fbinfos.py
+curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc
 chmod +x *
 cd /data/data/com.termux/files/home/Hack-Tool
@@ -96,11 +98,6 @@ cd /data/data/com.termux/files/home/Hack-Tool
 git clone https://github.com/rajkumardusad/IP-Tracer.git
 cd IP-Tracer
 chmod +x *
-cd /data/data/com.termux/files/home/Hack-Tool
-git clone https://github.com/htr-tech/Nexphisher.git
-cd Nexphisher
-chmod +x *
-bash setup
 cd /data/data/com.termux/files/home/Hack-Tool
 git clone https://github.com/sandiwijayani1/Spamwa.git
 cd Spamwa
