@@ -43,7 +43,7 @@ def banner():
     print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Author   "+CC+":"+WW+" TheDarkRoot"+GG+"                          |")
     print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Email    "+CC+":"+WW+" 7H3D4RKR007@gmail.com"+GG+"                |")
     print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Github   "+CC+":"+WW+" https://github.com/TheDarkRoot"+GG+"       |")
-    print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Telegram "+CC+":"+WW+" @TDarkRoot (https://t.me/TDarkRoot)"+GG+"  |")
+    print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Telegram "+CC+":"+WW+" @TheDarkRoot (t.me/TheDarkRoot)"+GG+"      |")
     print (GG+" |"+YY+" ["+CC+"="+YY+"] "+WW+"Team     "+CC+":"+WW+" TurkHackTeam (www.turkhackteam.org)"+GG+"  |")
     print (GG+" 0{===================================================}0\n")
 
