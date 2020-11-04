@@ -1,29 +1,19 @@
 #!/bin/bash
-pkg install git -y
-pkg install python -y
-pkg install python2 -y
-pkg install python3 -y
-pkg install cowsay -y
-pkg install wget -y
-pkg install curl -y
-pkg install ruby -y
-pkg install php -y
-pkg install toilet -y
-pkg install vim -y
-pkg install nano
-pkg install unzip
-pkg install figlet
-pkg install neofetch
-pkg install nano
-pkg install cmatrix
-pkg install perl
-pkg install cat
-pip install --upgrade pip
-pip install pillow
-gem install lolcat
-apt update
-apt upgrade -y
+pkg update && upgrade;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install cowsay -y;pkg install wget -y;pkg install curl -y;pkg install ruby -y;pkg install php -y;pkg install toilet -y;pkg install vim -y;pkg install nano;pkg install unzip;pkg install figlet;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pip install --upgrade pip;pip install pillow;gem install lolcat;
 cd /data/data/com.termux/files/home
+echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
+  command_not_found_handle() {
+    /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
+  }
+fi
+
+PS1='\033[36;1m┌──[\033[31;1mroot\033[33;1m@\033[32;1mTheDarkRoot\033[36;1m]─[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├──\033[36;1m[\033[32;1mTime:\033[33;1m\T\033[36;1m]─[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├──[\033[32;1mFolder:\033[33;1m\W\033[36;1m]─[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└──[:~# \033[32;1m'
+clear
+# cat << 'EOF'
+# BANNER #
+# EOF
+cowsay -f eyes The quieter you become, the more you are able to hear. | lolcat
+toilet -f big ' TheDarkRoot' -F gay | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
 rm -rf Tdr-Tool
 rm -rf Hack-Tool
 mkdir Tdr-Tool
