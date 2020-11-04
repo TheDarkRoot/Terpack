@@ -7,7 +7,7 @@ echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]
   }
 fi
 
-PS1='\033[36;1m┌──[\033[31;1mroot\033[33;1m@\033[32;1mTheDarkRoot\033[36;1m]─[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├──\033[36;1m[\033[32;1mTime:\033[33;1m\T\033[36;1m]─[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├──[\033[32;1mFolder:\033[33;1m\W\033[36;1m]─[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└──[:~# \033[32;1m'
+PS1='\033[36;1m┌──[\033[31;1mroot\033[33;1m@\033[32;1mTheDarkRoot\033[36;1m]─[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├──\033[36;1m[\033[32;1mTime:\033[33;1m\T AM\033[36;1m]─[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├──[\033[32;1mFolder:\033[33;1m\W\033[36;1m]─[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└──[:~# \033[32;1m'
 clear
 # cat << 'EOF'
 # BANNER #
@@ -15,8 +15,7 @@ clear
 cowsay -f eyes The quieter you become, the more you are able to hear. | lolcat
 toilet -f big ' TheDarkRoot' -F gay | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
 rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux;nano termux.properties
-echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" > /data/data/com.termux/files/home/.termux/termux.properties
-termux-reload-settings
+echo "extra-keys = [['ESC','/','-','HOME','UP','END','PGUP'],['TAB','CTRL','ALT','LEFT','DOWN','RIGHT','PGDN']]" > /data/data/com.termux/files/home/.termux/termux.properties;termux-reload-settings
 cd /data/data/com.termux/files/home/Tdr-Tool/
 mkdir Hasher;mkdir Hashgen;mkdir UserID;mkdir AnonSMS
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x *.sh
@@ -25,5 +24,4 @@ cd /data/data/com.termux/files/home/Tdr-Tool/Hashgen;curl https://raw.githubuser
 cd /data/data/com.termux/files/home/Tdr-Tool/UserID;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *
 cd /data/data/com.termux/files/home/Tdr-Tool/Hasher;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt
 cd /data/data/com.termux/files/home/Tdr-Tool/AnonSMS;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/
-cp Terpack.sh /data/data/com.termux/files/home/
+cd /data/data/com.termux/files/home/Tdr-Tool;cp Terpack.sh /data/data/com.termux/files/home/
