@@ -1,5 +1,5 @@
 #!/bin/bash
-termux-setup-storage;pkg update && upgrade;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install cowsay -y;pkg install wget -y;pkg install curl -y;pkg install ruby -y;pkg install php -y;pkg install toilet -y;pkg install vim -y;pkg install nano;pkg install unzip;pkg install figlet;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pip install --upgrade pip;pip install pillow;gem install lolcat;pkg install openssh -y;pkg install php -y;pip install --upgrade pip;pip2 install --upgrade pip;pip2 install bs4;pip2 install requests;pip2 install mechanize;pip install bs4;pip install requests;pip install mechanize
+termux-setup-storage;pkg update && upgrade;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install cowsay -y;pkg install wget -y;pkg install curl -y;pkg install ruby -y;pkg install php -y;pkg install toilet -y;pkg install vim -y;pkg install nano;pkg install unzip;pkg install figlet;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pip install --upgrade pip;pip install pillow;gem install lolcat;pkg install openssh -y;pkg install php -y;pkg install crunch -y;pkg install wordlist -y;pip install --upgrade pip;pip2 install --upgrade pip;pip2 install bs4;pip2 install requests;pip2 install mechanize;pip install bs4;pip install requests;pip install mechanize
 cd /data/data/com.termux/files/home
 echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
   command_not_found_handle() {
@@ -14,7 +14,7 @@ clear
 # EOF
 cowsay -f eyes The quieter you become, the more you are able to hear. | lolcat
 toilet -f big ' TheDarkRoot' -F gay | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
-rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux;nano termux.properties
+rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux
 echo "shortcut.create-session = ctrl + n
 shortcut.next-session = ctrl + s
 shortcut.previous-session = ctrl + w
