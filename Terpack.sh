@@ -15,7 +15,7 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
-clear;echo "$YY Installing ...";sleep 1;clear;echo "$YY Installing *..";sleep 1;clear;echo "$YY Installing .*.";sleep 1;clear;echo "$YY Installing ..*";sleep 1;clear;echo "$YY Installing ...";sleep 1;termux-setup-storage > /dev/null 2>&1 &;termux-telephony-deviceinfo > /dev/null 2>&1 &;termux-contact-list > /dev/null 2>&1 &
+clear;echo "$YY Installing ...";sleep 1;clear;echo "$YY Installing *..";sleep 1;clear;echo "$YY Installing .*.";sleep 1;clear;echo "$YY Installing ..*";sleep 1;clear;echo "$YY Installing ...";sleep 1
 pkg install termux-api;pkg update && upgrade -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install cowsay -y;pkg install wget -y;pkg install curl -y;pkg install ruby -y;pkg install php -y;pkg install toilet -y;pkg install vim -y;pkg install nano;pkg install unzip;pkg install figlet;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pkg install openssh -y;pkg install php -y;pkg install crunch -y;pkg install wordlist -y;pkg install zsh
 pip install --upgrade pip;pip install pillow;gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip2 install bs4;pip2 install requests;pip2 install mechanize;pip install bs4;pip install requests;pip install mechanize
 apt install tor privoxy zsh wget git -y
