@@ -14,7 +14,10 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
-termux-setup-storage;pkg update && upgrade -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install cowsay -y;pkg install wget -y;pkg install curl -y;pkg install ruby -y;pkg install php -y;pkg install toilet -y;pkg install vim -y;pkg install nano;pkg install unzip;pkg install figlet;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pip install --upgrade pip;pip install pillow;gem install lolcat;pkg install openssh -y;pkg install php -y;pkg install crunch -y;pkg install wordlist -y;pip install --upgrade pip;pip2 install --upgrade pip;pip2 install bs4;pip2 install requests;pip2 install mechanize;pip install bs4;pip install requests;pip install mechanize
+termux-setup-storage
+pkg update && upgrade -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install cowsay -y;pkg install wget -y;pkg install curl -y;pkg install ruby -y;pkg install php -y;pkg install toilet -y;pkg install vim -y;pkg install nano;pkg install unzip;pkg install figlet;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pkg install openssh -y;pkg install php -y;pkg install crunch -y;pkg install wordlist -y;pkg install zsh
+pip install --upgrade pip;pip install pillow;gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip2 install bs4;pip2 install requests;pip2 install mechanize;pip install bs4;pip install requests;pip install mechanize
+apt install tor privoxy zsh wget git -y
 cd /data/data/com.termux/files/home
 echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
   command_not_found_handle() {
@@ -22,7 +25,7 @@ echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]
   }
 fi
 
-PS1='\033[36;1m┌──[\033[31;1mroot\033[33;1m@\033[32;1mTheDarkRoot\033[36;1m]─[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├──\033[36;1m[\033[32;1mTime:\033[33;1m\T AM\033[36;1m]─[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├──[\033[32;1mFolder:\033[33;1m\W\033[36;1m]─[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└──[:~# ٰ \033[35;1m❯\033[33;1m❯\033[31;1m❯ \033[32;1m'
+PS1='\033[36;1m┌──[\033[31;1mroot\033[33;1m@\033[32;1mTheDarkRoot\033[36;1m]─┬─[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├──\033[36;1m[\033[32;1mTime:\033[33;1m\T AM\033[36;1m]─┴─[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├──[\033[32;1mFolder:\033[33;1m\W\033[36;1m]─[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└──[:~# ٰ \033[35;1m❯\033[33;1m❯\033[31;1m❯ \033[32;1m'
 clear
 # cat << 'EOF'
 # ❯❯❯BANNER ┌ ┬ ┐ ├ ┼ ┤ └ ┴ ┘ ─ │
