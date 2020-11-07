@@ -1,4 +1,19 @@
 #!/bin/bash
+#Colors
+BB="\033[34;1m" # Blue Light
+YY="\033[33;1m" # Yellow Light
+GG="\033[32;1m" # Green Light
+WW="\033[0;1m"  # White Light
+RR="\033[31;1m" # Red Light
+CC="\033[36;1m" # Cyan Light
+MM="\033[35;1m" # Magenta Light
+B="\033[34;1m"  # Blue
+Y="\033[33;1m"  # Yellow
+G="\033[32;1m"  # Green
+W="\033[0;1m"   # White
+R="\033[31;1m"  # Red
+C="\033[36;1m"  # Cyan
+M="\033[35;1m"  # Magenta
 termux-setup-storage;pkg update && upgrade -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install cowsay -y;pkg install wget -y;pkg install curl -y;pkg install ruby -y;pkg install php -y;pkg install toilet -y;pkg install vim -y;pkg install nano;pkg install unzip;pkg install figlet;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pip install --upgrade pip;pip install pillow;gem install lolcat;pkg install openssh -y;pkg install php -y;pkg install crunch -y;pkg install wordlist -y;pip install --upgrade pip;pip2 install --upgrade pip;pip2 install bs4;pip2 install requests;pip2 install mechanize;pip install bs4;pip install requests;pip install mechanize
 cd /data/data/com.termux/files/home
 echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
@@ -7,13 +22,15 @@ echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]
   }
 fi
 
-PS1='\033[36;1m┌──[\033[31;1mroot\033[33;1m@\033[32;1mTheDarkRoot\033[36;1m]─[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├──\033[36;1m[\033[32;1mTime:\033[33;1m\T AM\033[36;1m]─[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├──[\033[32;1mFolder:\033[33;1m\W\033[36;1m]─[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└──[:~# \033[35;1m❯\033[33;1m❯\033[31;1m❯ \033[32;1m'
+PS1='\033[36;1m┌──[\033[31;1mroot\033[33;1m@\033[32;1mTheDarkRoot\033[36;1m]─[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├──\033[36;1m[\033[32;1mTime:\033[33;1m\T AM\033[36;1m]─[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├──[\033[32;1mFolder:\033[33;1m\W\033[36;1m]─[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└──[:~# ٰ \033[35;1m❯\033[33;1m❯\033[31;1m❯ \033[32;1m'
 clear
 # cat << 'EOF'
-# ❯❯❯BANNER
+# ❯❯❯BANNER ┌ ┬ ┐ ├ ┼ ┤ └ ┴ ┘ ─ │
 # EOF
-cowsay -f eyes The quieter you become, the more you are able to hear. | lolcat
-toilet -f big ' TheDarkRoot' -F gay | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
+# cowsay -f eyes The quieter you become, the more you are able to hear. | lolcat
+toilet -f big ' TheDarkRoot' -F gay | lolcat
+# toilet -f banner -F border --gay TheDarkRoot | lolcat
+# toilet -f term -F border --gay The quieter you become, the more you are able to hear.   - Kali Linux | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
 rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux
 echo "shortcut.create-session = ctrl + n
 shortcut.next-session = ctrl + s
