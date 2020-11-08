@@ -52,40 +52,7 @@ clear
 # cowsay -f eyes The quieter you become, the more you are able to hear. | lolcat
 toilet -f big ' TheDarkRoot' -F gay | lolcat
 # toilet -f banner -F border --gay TheDarkRoot | lolcat
-# toilet -f term -F border --gay The quieter you become, the more you are able to hear.   - Kali Linux | lolcat
-#Colors
-BB="\033[34;1m" # Blue Light
-YY="\033[33;1m" # Yellow Light
-GG="\033[32;1m" # Green Light
-WW="\033[0;1m"  # White Light
-RR="\033[31;1m" # Red Light
-CC="\033[36;1m" # Cyan Light
-MM="\033[35;1m" # Magenta Light
-B="\033[34;1m"  # Blue
-Y="\033[33;1m"  # Yellow
-G="\033[32;1m"  # Green
-W="\033[0;1m"   # White
-R="\033[31;1m"  # Red
-C="\033[36;1m"  # Cyan
-M="\033[35;1m"  # Magenta
-echo -e "$CC #######$YY ##################$CC #######$YY ####################"
-echo -e "$CC    #    #####  #####          #     ####   ####  #     "
-echo -e "$CC    #    #    # #    #         #    #    # #    # #     "
-echo -e "$CC    #    #    # #    #  #####  #    #    # #    # #     "
-echo -e "$CC    #    #    # #####          #    #    # #    # #     "
-echo -e "$CC    #    #    # #   #          #    #    # #    # #     "
-echo -e "$CC    #    #####  #    #         #     ####   ####  ######"
-echo -e "$YY ####################[$GG TheDarkRoot$YY ]####################"
-echo -e "$GG 0{======================$WW INFO $GG=======================}0"
-echo -e "$GG |$YY [$CC=$YY]$WW Name     $CC:$WW Terpack$GG                              |"
-echo -e "$GG |$YY [$CC=$YY]$WW Code     $CC:$WW Shell$GG                                |"
-echo -e "$GG |$YY [$CC=$YY]$WW Version  $CC:$WW v1.0.0 (Alpha)$GG                       |"
-echo -e "$GG |$YY [$CC=$YY]$WW Author   $CC:$WW TheDarkRoot$GG                          |"
-echo -e "$GG |$YY [$CC=$YY]$WW Email    $CC:$WW 7H3D4RKR007@gmail.com$GG                |"
-echo -e "$GG |$YY [$CC=$YY]$WW Github   $CC:$WW https://github.com/TheDarkRoot$GG       |"
-echo -e "$GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |"
-echo -e "$GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |"
-echo -e "$GG 0{===================================================}0"" > /data/data/com.termux/files/usr/etc/bash.bashrc
+# toilet -f term -F border --gay The quieter you become, the more you are able to hear.   - Kali Linux | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
 rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux
 echo "shortcut.create-session = ctrl + n
 shortcut.next-session = ctrl + s
