@@ -15,6 +15,24 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
+echo -e "$CC #######$YY ##################$CC #######$YY ####################
+$CC    #    #####  #####          #     ####   ####  #     
+$CC    #    #    # #    #         #    #    # #    # #     
+$CC    #    #    # #    #  #####  #    #    # #    # #     
+$CC    #    #    # #####          #    #    # #    # #     
+$CC    #    #    # #   #          #    #    # #    # #     
+$CC    #    #####  #    #         #     ####   ####  ######
+$YY ####################[$GG TheDarkRoot$YY ]####################
+$GG 0{======================$WW INFO $GG=======================}0
+$GG |$YY [$CC=$YY] $WWName     $CC:$WW Terpack$GG                              |
+$GG |$YY [$CC=$YY] $WWCode     $CC:$WW Python$GG                               |
+$GG |$YY [$CC=$YY] $WWVersion  $CC:$WW v1.0.0 (Alpha)$GG                       |
+$GG |$YY [$CC=$YY] $WWAuthor   $CC:$WW TheDarkRoot$GG                          |
+$GG |$YY [$CC=$YY] $WWEmail    $CC:$WW 7H3D4RKR007@gmail.com$GG                |
+$GG |$YY [$CC=$YY] $WWGithub   $CC:$WW https://github.com/TheDarkRoot$GG       |
+$GG |$YY [$CC=$YY] $WWTelegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
+$GG |$YY [$CC=$YY] $WWTeam     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
+$GG 0{===================================================}0"
 clear;echo -e "$YY Installing ...";sleep 1;clear;echo -e "$YY Installing *..";sleep 1;clear;echo -e "$YY Installing .*.";sleep 1;clear;echo -e "$YY Installing ..*";sleep 1;clear;echo -e "$YY Installing ...";sleep 1;termux-setup-storage
 pkg install termux-api;pkg update && upgrade -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install cowsay -y;pkg install wget -y;pkg install curl -y;pkg install ruby -y;pkg install php -y;pkg install toilet -y;pkg install vim -y;pkg install nano;pkg install unzip;pkg install figlet;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pkg install openssh -y;pkg install php -y;pkg install crunch -y;pkg install wordlist -y;pkg install zsh
 pip install --upgrade pip;pip install pillow;gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip2 install bs4;pip2 install requests;pip2 install mechanize;pip install bs4;pip install requests;pip install mechanize
