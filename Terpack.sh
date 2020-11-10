@@ -101,14 +101,14 @@ echo "shortcut.create-session = ctrl + n
 shortcut.next-session = ctrl + s
 shortcut.previous-session = ctrl + w
 extra-keys = [['*','\','.','@','~',':',';','&'],['ESC','CTRL','-','HOME','UP','END','PGUP','DEL'],['TAB','ALT','/','LEFT','DOWN','RIGHT','PGDN','BKSP']]" > /data/data/com.termux/files/home/.termux/termux.properties ;termux-reload-settings
-cd /data/data/com.termux/files/home/Tdr-Tool/
+cd ~/Tdr-Tool/
 mkdir Hasher/ ;mkdir Hashgen/ ;mkdir UserID/ ;mkdir AnonSMS/
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh ;chmod +x Terpack.sh
-cd /data/data/com.termux/files/home/Tdr-Tool/Hasher/ ;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py ;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/Hashgen/ ;curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o Hashgen.py ;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/UserID/ ;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh ;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/Hasher/ ;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt ;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/AnonSMS/ ;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py ;chmod +x *
+cd ~/Tdr-Tool//Hasher/ ;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py ;chmod +x *
+cd ~/Tdr-Tool//Hashgen/ ;curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o Hashgen.py ;chmod +x *
+cd ~/Tdr-Tool//UserID/ ;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh ;chmod +x *
+cd ~/Tdr-Tool//Hasher/ ;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt ;chmod +x *
+cd ~/Tdr-Tool//AnonSMS/ ;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py ;chmod +x *
 # Terpack Banner
 echo -e "$CC #######$YY ##################$CC #######$YY ####################"
 echo -e "$CC    #    #####  #####          #     ####   ####  #     "
