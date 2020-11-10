@@ -103,7 +103,7 @@ echo -e "$CC Termux Key Update..."
 echo "shortcut.create-session = ctrl + n
 shortcut.next-session = ctrl + s
 shortcut.previous-session = ctrl + w
-extra-keys = [['*','\','.','@','~',':',';','&'],['ESC','CTRL','-','HOME','UP','END','PGUP','DEL'],['TAB','ALT','/','LEFT','DOWN','RIGHT','PGDN','BKSP']]" > /data/data/com.termux/files/home/.termux/termux.properties;termux-reload-settings
+extra-keys = [['*','\','.','@','~',':',';','&'],['ESC','CTRL','-','HOME','UP','END','PGUP','DEL'],['TAB','ALT','/','LEFT','DOWN','RIGHT','PGDN','BKSP']]" > /data/data/com.termux/files/home/.termux/termux.properties ;termux-reload-settings
 cd /data/data/com.termux/files/home/Tdr-Tool
 mkdir Hasher ;mkdir Hashgen ;mkdir UserID ;mkdir AnonSMS
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh ;chmod +x Terpack.sh
