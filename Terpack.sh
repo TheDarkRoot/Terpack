@@ -15,6 +15,7 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
+
 clear
 # Terpack Banner
 echo -e "$CC #######$YY ##################$CC #######$YY ####################"
