@@ -1,4 +1,3 @@
-#!/data/data/com.termux/bin/bash
 #!/bin/bash
 #Colors
 BB="\033[34;1m" # Blue Light
@@ -15,8 +14,6 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
-
-clear
 # Terpack Banner
 echo -e "$CC #######$YY ##################$CC #######$YY ####################"
 echo -e "$CC    #    #####  #####          #     ####   ####  #     "
@@ -134,3 +131,4 @@ echo -e "$GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.o
 echo -e "$GG 0{===================================================}0"
 echo " "
 echo -e "$CC Update successful."
+echo " "
