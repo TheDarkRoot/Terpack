@@ -36,47 +36,47 @@ echo -e "$GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.o
 echo -e "$GG 0{===================================================}0"
 echo " "
 # Pkg Install
-echo -e "$GG termux-setup-storage" ;termux-setup-storage
-echo -e "$GG pkg install termux-api" ;pkg install termux-api
-echo -e "$GG pkg update && upgrade -y" ;pkg update && upgrade -y
-echo -e "$GG pkg install git -y" ;pkg install git -y
-echo -e "$GG pkg install python -y" ;pkg install python -y
-echo -e "$GG pkg install python2 -y" ;pkg install python2 -y
-echo -e "$GG pkg install ruby -y" ;pkg install ruby -y
-echo -e "$GG pkg install php -y" ;pkg install php -y
-echo -e "$GG pkg install cowsay -y" ;pkg install cowsay -y
-echo -e "$GG pkg install figlet" ;pkg install figlet
-echo -e "$GG pkg install toilet -y" ;pkg install toilet -y
-echo -e "$GG pkg install wget -y" ;pkg install wget -y
-echo -e "$GG pkg install curl -y" ;pkg install curl -y
-echo -e "$GG pkg install vim -y" ;pkg install vim -y
-echo -e "$GG pkg install nano" ;pkg install nano
-echo -e "$GG pkg install crunch -y" ;pkg install crunch -y
-echo -e "$GG pkg install wordlist -y" ;pkg install wordlist -y
-echo -e "$GG pkg install unzip" ;pkg install unzip
-echo -e "$GG pkg install neofetch" ;pkg install neofetch
-echo -e "$GG pkg install cmatrix" ;pkg install cmatrix
-echo -e "$GG pkg install perl" ;pkg install perl
-echo -e "$GG pkg install cat" ;pkg install cat
-echo -e "$GG pkg install openssh -y" ;pkg install openssh -y
-echo -e "$GG pkg install zsh" ;pkg install zsh
-echo -e "$GG pkg update && upgrade -y" ;pkg update && upgrade -y
+termux-setup-storage
+pkg install termux-api
+pkg update && upgrade -y
+pkg install git -y
+pkg install python -y
+pkg install python2 -y
+pkg install ruby -y
+pkg install php -y
+pkg install cowsay -y
+pkg install figlet
+pkg install toilet -y
+pkg install wget -y
+pkg install curl -y
+pkg install vim -y
+pkg install nano
+pkg install crunch -y
+pkg install wordlist -y
+pkg install unzip
+pkg install neofetch
+pkg install cmatrix
+pkg install perl
+pkg install cat
+pkg install openssh -y
+pkg install zsh
+pkg update && upgrade -y
 # Pip Install
-echo -e "$YY pip install --upgrade pip" ;pip install --upgrade pip
-echo -e "$YY pip2 install --upgrade pip" ;pip2 install --upgrade pip
-echo -e "$YY pip install bs4" ;pip install bs4
-echo -e "$YY pip2 install bs4" ;pip2 install bs4
-echo -e "$YY pip install requests" ;pip install requests
-echo -e "$YY pip2 install requests" ;pip2 install requests
-echo -e "$YY pip install mechanize" ;pip install mechanize
-echo -e "$YY pip2 install mechanize" ;pip2 install mechanize
-echo -e "$YY pip install pillow" ;pip install pillow
-echo -e "$YY pip2 install passlib" ;pip2 install passlib
-echo -e "$YY pip2 install progressbar" ;pip2 install progressbar
-echo -e "$YY gem install lolcat" ;gem install lolcat
+pip install --upgrade pip
+pip2 install --upgrade pip
+pip install bs4
+pip2 install bs4
+pip install requests
+pip2 install requests
+pip install mechanize
+pip2 install mechanize
+pip install pillow
+pip2 install passlib
+pip2 install progressbar
+gem install lolcat
 # Tor Setup
-echo -e "$CC apt install tor privoxy zsh wget git -y" ;apt install tor privoxy zsh wget git -y
-cd /data/data/com.termux/files/home
+apt install tor privoxy zsh wget git -y
+cd ~
 # Banner Update
 echo -e "$CC Banner Update..."
 echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
@@ -100,7 +100,7 @@ echo -e "$CC Termux Key Update..."
 echo "shortcut.create-session = ctrl + n
 shortcut.next-session = ctrl + s
 shortcut.previous-session = ctrl + w
-extra-keys = [['*','\','.','@','~',':',';','&'],['ESC','CTRL','-','HOME','UP','END','PGUP','DEL'],['TAB','ALT','/','LEFT','DOWN','RIGHT','PGDN','BKSP']]" > /data/data/com.termux/files/home/.termux/termux.properties ;termux-reload-settings
+extra-keys = [['*','%','+','@','~',':',';','&'],['ESC','CTRL','-','HOME','UP','END','PGUP','DEL'],['TAB','ALT','/','LEFT','DOWN','RIGHT','PGDN','BKSP']]" > /data/data/com.termux/files/home/.termux/termux.properties ;termux-reload-settings
 cd ~/Tdr-Tool
 mkdir Hasher/ ;mkdir Hashgen/ ;mkdir UserID/ ;mkdir AnonSMS/
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh ;chmod +x Terpack.sh
