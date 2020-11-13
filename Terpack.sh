@@ -15,6 +15,7 @@ R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
 # Terpack Banner
+echo " "
 echo -e "$CC #######$YY ##################$CC #######$YY ####################"
 echo -e "$CC    #    #####  #####          #     ####   ####  #     "
 echo -e "$CC    #    #    # #    #         #    #    # #    # #     "
@@ -36,46 +37,11 @@ echo -e "$GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.o
 echo -e "$GG 0{===================================================}0"
 echo " "
 # Pkg Install
-pkg install git -y
-pkg install python -y
-pkg install python2 -y
-pkg install php -y
-pkg install cowsay -y
-pkg install figlet
-pkg install ruby -y
-pkg install toilet -y
-pkg install wget -y
-pkg install curl -y
-pkg install vim -y
-pkg install crunch -y
-pkg install wordlist -y
-pkg install unzip
-pkg install neofetch
-pkg install nano
-pkg install cmatrix
-pkg install perl
-pkg install cat
-pkg install openssh -y
-pkg install zsh
-pkg install termux-api
-termux-setup-storage
-pkg update && upgrade -y
+pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install ruby -y;pkg install toilet -y;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install crunch -y;pkg install wordlist -y;pkg install unzip;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install cat;pkg install openssh -y;pkg install zsh;pkg install termux-api;termux-setup-storage;apt update && apt upgrade -y
 # Pip Install
-pip install --upgrade pip
-pip2 install --upgrade pip
-pip install bs4
-pip2 install bs4
-pip install requests
-pip2 install requests
-pip install mechanize
-pip2 install mechanize
-pip install pillow
-pip2 install passlib
-pip2 install progressbar
-gem install lolcat
+gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip install pillow;;pip2 install passlib;pip2 install progressbar
 # Tor Setup
 apt install tor privoxy zsh wget git -y
-cd ~
 # Banner Update
 echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
   command_not_found_handle() {
