@@ -36,30 +36,29 @@ echo -e "$GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.o
 echo -e "$GG 0{===================================================}0"
 echo " "
 # Pkg Install
-termux-setup-storage
-pkg install termux-api
-pkg update && upgrade -y
 pkg install git -y
 pkg install python -y
 pkg install python2 -y
-pkg install ruby -y
 pkg install php -y
 pkg install cowsay -y
 pkg install figlet
+pkg install ruby -y
 pkg install toilet -y
 pkg install wget -y
 pkg install curl -y
 pkg install vim -y
-pkg install nano
 pkg install crunch -y
 pkg install wordlist -y
 pkg install unzip
 pkg install neofetch
+pkg install nano
 pkg install cmatrix
 pkg install perl
 pkg install cat
 pkg install openssh -y
 pkg install zsh
+pkg install termux-api
+termux-setup-storage
 pkg update && upgrade -y
 # Pip Install
 pip install --upgrade pip
@@ -78,7 +77,6 @@ gem install lolcat
 apt install tor privoxy zsh wget git -y
 cd ~
 # Banner Update
-echo -e "$CC Banner Update..."
 echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
   command_not_found_handle() {
     /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
@@ -96,7 +94,6 @@ toilet -f big ' TheDarkRoot' -F gay | lolcat
 toilet -f term -F border --gay The quieter you become, the more you are able to hear.   - Kali Linux | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
 rm -rf Tdr-Tool/ ;rm -rf Hack-Tool/ ;mkdir Tdr-Tool/ ;mkdir Hack-Tool/ ;mkdir .termux/
 # Termux Key Update
-echo -e "$CC Termux Key Update..."
 echo "shortcut.create-session = ctrl + n
 shortcut.next-session = ctrl + s
 shortcut.previous-session = ctrl + w
