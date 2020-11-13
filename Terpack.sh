@@ -92,14 +92,21 @@ clear
 toilet -f big ' TheDarkRoot' -F gay | lolcat
 # toilet -f banner -F border --gay TheDarkRoot | lolcat
 toilet -f term -F border --gay The quieter you become, the more you are able to hear.   - Kali Linux | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
-rm -rf Tdr-Tool/ ;rm -rf Hack-Tool/ ;mkdir Tdr-Tool/ ;mkdir Hack-Tool/ ;mkdir .termux/
+rm -rf Tdr-Tool/
+rm -rf Hack-Tool/
+mkdir Tdr-Tool/
+mkdir Hack-Tool/
+mkdir .termux/
 # Termux Key Update
 echo "shortcut.create-session = ctrl + n
 shortcut.next-session = ctrl + s
 shortcut.previous-session = ctrl + w
 extra-keys = [['*','%','+','@','~',':',';','&'],['ESC','CTRL','-','HOME','UP','END','PGUP','DEL'],['TAB','ALT','/','LEFT','DOWN','RIGHT','PGDN','BKSP']]" > /data/data/com.termux/files/home/.termux/termux.properties ;termux-reload-settings
 cd ~/Tdr-Tool
-mkdir Hasher/ ;mkdir Hashgen/ ;mkdir UserID/ ;mkdir AnonSMS/
+mkdir Hasher/
+mkdir Hashgen/
+mkdir UserID/
+mkdir AnonSMS/
 curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh ;chmod +x Terpack.sh
 cd ~/Tdr-Tool/Hasher/ ;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py
 cd ~/Tdr-Tool/Hasher/ ;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt ;chmod +x *
