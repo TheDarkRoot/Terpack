@@ -58,7 +58,7 @@ clear
 # cowsay -f eyes The quieter you become, the more you are able to hear. | lolcat
 toilet -f big ' TheDarkRoot' -F gay | lolcat
 # toilet -f banner -F border --gay TheDarkRoot | lolcat
-toilet -f term -F border --gay The quieter you become, the more you are able to hear.   - Kali Linux | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
+toilet -f term -F border --gay The quieter you become, the more you are able to hear.   - Kali Linux | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc;
 rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux;
 # Termux Key Update
 echo "shortcut.create-session = ctrl + n
