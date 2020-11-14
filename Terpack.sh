@@ -43,6 +43,7 @@ pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 instal
 # Tor Setup
 apt install tor privoxy zsh wget git -y;
 # Banner Update
+cd /data/data/com.termux/files/home
 echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
   command_not_found_handle() {
     /data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
