@@ -47,11 +47,10 @@ cd /data/data/com.termux/files/home/Tdr-Tool/UserID;curl https://raw.githubuserc
 cd /data/data/com.termux/files/home/Tdr-Tool/AnonSMS;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *;
 cd /data/data/com.termux/files/home/Tdr-Tool/Terpack;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x *;
 #Banner Update
-cd /data/data/com.termux/files/usr/etc;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc
+cd /data/data/com.termux/files/usr/etc/ && curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc
 #Termux Key Update
-cd /data/data/com.termux/files/home/.termux;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties
-cd /data/data/com.termux/files/home
-termux-reload-settings
+cd /data/data/com.termux/files/home/.termux/ && curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties
+cd /data/data/com.termux/files/home/ && termux-reload-settings;
 #Terpack Banner
 echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
 $CC    #    #####  #####          #     ####   ####  #     
