@@ -38,15 +38,15 @@ pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 instal
 apt install tor privoxy zsh wget git -y;clear
 #TheDarkRoot Repositories Download
 rm -rf Tdr-Tool && rm -rf Hack-Tool && mkdir Tdr-Tool && mkdir Hack-Tool && mkdir .termux
-cd /data/data/com.termux/files/home/Tdr-Tool/;mkdir AnonSMS && mkdir Hasher && mkdir Hashgen && mkdir UserID && mkdir Terpack
-cd /data/data/com.termux/files/home/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py
-cd /data/data/com.termux/files/home/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/Hashgen/;curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o Hashgen.py;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/AnonSMS/;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *
-cd /data/data/com.termux/files/home/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
-cd /data/data/com.termux/files/home/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc;cp bash.bashrc /data/data/com.termux/files/usr/etc
-cd /data/data/com.termux/files/home/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;chmod +x *;cp termux.properties ~/.termux
+~/Tdr-Tool/;mkdir AnonSMS && mkdir Hasher && mkdir Hashgen && mkdir UserID && mkdir Terpack
+~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py
+~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt;chmod +x *
+~/Tdr-Tool/Hashgen/;curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o Hashgen.py;chmod +x *
+~/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *
+~/Tdr-Tool/AnonSMS/;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *
+~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh
+~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc;cp bash.bashrc /data/data/com.termux/files/usr/etc
+~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;chmod +x *;cp termux.properties ~/.termux
 #Terpack Banner
 echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
 $CC    #    #####  #####          #     ####   ####  #     
@@ -66,5 +66,5 @@ $GG |$YY [$CC=$YY]$WW Github   $CC:$WW https://github.com/TheDarkRoot$GG       |
 $GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
 $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
-termux-reload-settings
 echo -e "$CC Update successful.\n"
+termux-reload-settings
