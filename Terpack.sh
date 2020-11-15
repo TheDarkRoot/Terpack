@@ -38,6 +38,7 @@ pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 instal
 apt install tor privoxy zsh wget git -y;clear;
 #TheDarkRoot Repositories Download
 cd /data/data/com.termux/files/home
+curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x *;
 rm -rf * && mkdir Tdr-Tool && mkdir Hack-Tool && mkdir .termux;
 cd /data/data/com.termux/files/home/Tdr-Tool;mkdir AnonSMS && mkdir Hasher && mkdir Hashgen && mkdir UserID && mkdir Terpack;
 cd /data/data/com.termux/files/home/Tdr-Tool/Hasher;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py;
@@ -48,7 +49,6 @@ cd /data/data/com.termux/files/home/Tdr-Tool/AnonSMS;curl https://raw.githubuser
 cd /data/data/com.termux/files/home/Tdr-Tool/Terpack;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;
 cd /data/data/com.termux/files/home/Tdr-Tool/Terpack;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc;
 cd /data/data/com.termux/files/home/Tdr-Tool/Terpack;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;
-cd /data/data/com.termux/files/home/Tdr-Tool/Terpack;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.sh -o bash.sh;chmod +x *;
 #Banner Update && Termux Key Update
 cd /data/data/com.termux/files/home/Tdr-Tool/Terpack
 cp bash.bashrc /data/data/com.termux/files/usr/etc/
