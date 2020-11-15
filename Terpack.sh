@@ -47,31 +47,8 @@ cd /data/data/com.termux/files/home/Tdr-Tool/Hashgen/;curl https://raw.githubuse
 cd /data/data/com.termux/files/home/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *;
 cd /data/data/com.termux/files/home/Tdr-Tool/AnonSMS/;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *;
 cd /data/data/com.termux/files/home/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;
-cd /data/data/com.termux/files/home/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc;
-cd /data/data/com.termux/files/home/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;chmod +x *;
-#Banner Update
-cd /data/data/com.termux/files/home/
-echo "if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
-	command_not_found_handle() {
-		/data/data/com.termux/files/usr/libexec/termux/command-not-found "$1"
-	}
-fi
-
-PS1='\033[36;1m┌──[\033[31;1mroot\033[33;1m@\033[32;1mTheDarkRoot\033[36;1m]──[\033[32;1mCom:\033[33;1m\#\033[36;1m]\n├──\033[36;1m[\033[32;1mTime:\033[33;1m\T AM\033[36;1m]──[\033[32;1mDate:\033[33;1m\d\033[36;1m]\n\033[36;1m├──[\033[32;1mFolder:\033[33;1m\W\033[36;1m]─[\033[32;1mPwd:\033[33;1m\w\033[36;1m]\n\033[36;1m└──[:~# ٰ \033[35;1m❯\033[33;1m❯\033[31;1m❯ \033[32;1m'
-clear
-#cat << 'EOF'
-#❯❯❯BANNER ┌ ┬ ┐ ├ ┼ ┤ └ ┴ ┘ ─ │
-#EOF
-#cowsay -f eyes The quieter you become, the more you are able to hear. | lolcat
-toilet -f big ' TheDarkRoot' -F gay | lolcat
-#toilet -f banner -F border --gay TheDarkRoot | lolcat
-toilet -f term -F border --gay The quieter you become, the more you are able to hear.   - Kali Linux | lolcat" > /data/data/com.termux/files/usr/etc/bash.bashrc
-#Termux Key Update
-cd /data/data/com.termux/files/home/
-echo "shortcut.create-session = ctrl + n
-shortcut.next-session = ctrl + s
-shortcut.previous-session = ctrl + w
-extra-keys = [['*','%','+','@','~',':',';','&'],['ESC','CTRL','-','HOME','UP','END','PGUP','DEL'],['TAB','ALT','/','LEFT','DOWN','RIGHT','PGDN','BKSP']]" > /data/data/com.termux/files/home/.termux/termux.properties
+cd /data/data/com.termux/files/home/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc;cp bash.bashrc /data/data/com.termux/files/usr/etc;
+cd /data/data/com.termux/files/home/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;chmod +x *;cp termux.properties ~/.termux;
 termux-reload-settings
 #Terpack Banner
 echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
