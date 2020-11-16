@@ -16,11 +16,11 @@ C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
 #Terpack Banner
 echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
-$CC    #    #####  #####          #     ####   ####  #     
-$CC    #    #    # #    #         #    #    # #    # #     
-$CC    #    #    # #    #  #####  #    #    # #    # #     
-$CC    #    #    # #####          #    #    # #    # #     
-$CC    #    #    # #   #          #    #    # #    # #     
+$CC    #    #####  #####          #     ####   ####  #
+$CC    #    #    # #    #         #    #    # #    # #
+$CC    #    #    # #    #  #####  #    #    # #    # #
+$CC    #    #    # #####          #    #    # #    # #
+$CC    #    #    # #   #          #    #    # #    # #
 $CC    #    #####  #    #         #     ####   ####  ######
 $YY ####################[$GG TheDarkRoot$YY ]####################\n
 $GG 0{======================$WW INFO $GG=======================}0
@@ -49,11 +49,11 @@ cd ~/Tdr-Tool/Terpack/ && curl https://raw.githubusercontent.com/TheDarkRoot/Ter
 cd ~/Tdr-Tool/Terpack/ && curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;chmod +x *;cp termux.properties ~/.termux;
 #Terpack Banner
 echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
-$CC    #    #####  #####          #     ####   ####  #     
-$CC    #    #    # #    #         #    #    # #    # #     
-$CC    #    #    # #    #  #####  #    #    # #    # #     
-$CC    #    #    # #####          #    #    # #    # #     
-$CC    #    #    # #   #          #    #    # #    # #     
+$CC    #    #####  #####          #     ####   ####  #
+$CC    #    #    # #    #         #    #    # #    # #
+$CC    #    #    # #    #  #####  #    #    # #    # #
+$CC    #    #    # #####          #    #    # #    # #
+$CC    #    #    # #   #          #    #    # #    # #
 $CC    #    #####  #    #         #     ####   ####  ######
 $YY ####################[$GG TheDarkRoot$YY ]####################\n
 $GG 0{======================$WW INFO $GG=======================}0
