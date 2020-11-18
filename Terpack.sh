@@ -57,7 +57,8 @@ echo "";
 
 }
 
-( termux-setup-storage;apt update;apt upgrade -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install ruby -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install toilet -y;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install crunch -y;pkg install cat -y;pkg install unzip;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install wordlist;pkg install openssh -y;pkg install zsh;pkg install termux-api;apt update;apt upgrade -y; ) &> /dev/null & spin
+echo -e "\e[1;34m[*] \e[32mZsh-syntax-highlighter setup....\e[0m";
+	( termux-setup-storage;apt update;apt upgrade -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install ruby -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install toilet -y;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install crunch -y;pkg install cat -y;pkg install unzip;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install wordlist;pkg install openssh -y;pkg install zsh;pkg install termux-api;apt update;apt upgrade -y; ) &> /dev/null & spin
 gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip install pillow;pip2 install passlib;pip2 install progressbar;
 apt install tor privoxy zsh wget git -y;
 #TheDarkRoot Repositories Download
