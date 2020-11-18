@@ -1,4 +1,28 @@
 #!/bin/bash
+
+spin () {
+
+local pid=$!
+local delay=0.25
+local spinner=( '█■■■■' '■█■■■' '■■█■■' '■■■█■' '■■■■█' )
+
+while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
+
+for i in "${spinner[@]}"
+do
+	tput civis
+	echo -ne "\033[34m\r[*] Downloading..please wait.........\e[33m[\033[32m$i\033[33m]\033[0m   ";
+	sleep $delay
+	printf "\b\b\b\b\b\b\b\b";
+done
+done
+printf "   \b\b\b\b\b"
+tput cnorm
+printf "\e[1;33m [Done]\e[0m";
+echo "";
+
+}
+
 #Colors
 BB="\033[34;1m" # Blue Light
 YY="\033[33;1m" # Yellow Light
@@ -34,31 +58,9 @@ $GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
 $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
 
-spin () {
-
-local pid=$!
-local delay=0.25
-local spinner=( '█■■■■' '■█■■■' '■■█■■' '■■■█■' '■■■■█' )
-
-while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
-
-for i in "${spinner[@]}"
-do
-	tput civis
-	echo -ne "\033[34m\r[*] Downloading..please wait.........\e[33m[\033[32m$i\033[33m]\033[0m   ";
-	sleep $delay
-	printf "\b\b\b\b\b\b\b\b";
-done
-done
-printf "   \b\b\b\b\b"
-tput cnorm
-printf "\e[1;33m [Done]\e[0m";
-echo "";
-
-}
-
 echo -e "\e[1;34m[*] \e[32mZsh-syntax-highlighter setup....\e[0m";
 	( termux-setup-storage;apt update;apt upgrade -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install ruby -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install toilet -y;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install crunch -y;pkg install cat -y;pkg install unzip;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install perl;pkg install wordlist;pkg install openssh -y;pkg install zsh;pkg install termux-api;apt update;apt upgrade -y; ) &> /dev/null & spin
+
 gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip install pillow;pip2 install passlib;pip2 install progressbar;
 apt install tor privoxy zsh wget git -y;
 #TheDarkRoot Repositories Download
