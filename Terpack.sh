@@ -47,7 +47,7 @@ cd ~/Tdr-Tool/AnonSMS/ && curl https://raw.githubusercontent.com/TheDarkRoot/Ano
 cd ~/Tdr-Tool/Terpack/ && curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;
 cd ~/Tdr-Tool/Terpack/ && curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc && cp bash.bashrc /data/data/com.termux/files/usr/etc;
 cd ~/Tdr-Tool/Terpack/ && curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties && cp termux.properties ~/.termux && chmod +x *;
-cd ~/
+cd ~/;termux-reload-settings;
 #Terpack Banner
 echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
 $CC    #    #####  #####          #     ####   ####  #
