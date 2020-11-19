@@ -44,7 +44,7 @@ $YY ####################[$GG TheDarkRoot$YY ]####################\n
 $GG 0{======================$WW INFO $GG=======================}0
 $GG |$YY [$CC=$YY]$WW Name     $CC:$WW Terpack$GG                              |
 $GG |$YY [$CC=$YY]$WW Code     $CC:$WW Shell$GG                                |
-$GG |$YY [$CC=$YY]$WW Version  $CC:$WW v1.0.0 (Alpha)$GG                       |
+$GG |$YY [$CC=$YY]$WW Version  $CC:$WW v1.2.7 (Alpha)$GG                       |
 $GG |$YY [$CC=$YY]$WW Author   $CC:$WW TheDarkRoot$GG                          |
 $GG |$YY [$CC=$YY]$WW Email    $CC:$WW 7H3D4RKR007@gmail.com$GG                |
 $GG |$YY [$CC=$YY]$WW Github   $CC:$WW https://github.com/TheDarkRoot$GG       |
