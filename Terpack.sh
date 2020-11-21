@@ -52,16 +52,16 @@ $GG |$YY [$CC=$YY]$WW Github   $CC:$WW https://github.com/TheDarkRoot$GG       |
 $GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
 $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
-echo -e "$CC [$YY*$GG] Termux setup storage...$YY";
+echo -e "$CC [$YY*$GG] Termux setup storage...";
 ( termux-setup-storage; ) &> /dev/null & spin;
-echo -e "$CC [$YY*$GG] Pkg installing...$YY";
+echo -e "$CC [$YY*$GG] Pkg installing...";
 ( pkg install git -y;pkg install python -y;pkg install python2;pkg install ruby -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install toilet -y;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot;pkg install crunch;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install openssh -y;pkg install zsh;pkg install termux-api; ) &> /dev/null & spin;
-echo -e "$CC [$YY*$GG] Pip installing...$YY";
+echo -e "$CC [$YY*$GG] Pip installing...";
 ( gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip2 install passlib;pip2 install progressbar;pip install pillow; ) &> /dev/null & spin;
-echo -e "$CC [$YY*$GG] Tor installing...$YY";
+echo -e "$CC [$YY*$GG] Tor installing...";
 ( apt install tor privoxy zsh wget git -y; ) &> /dev/null & spin;
 #TheDarkRoot Repositories Download
-echo -e "$CC [$YY*$GG] Tdr-Tool installing...$YY";
+echo -e "$CC [$YY*$GG] Tdr-Tool installing...";
 ( cd ~/;rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux;
 cd ~/Tdr-Tool;mkdir AnonSMS;mkdir Hasher;mkdir Hashgen;mkdir UserID;mkdir Terpack;
 cd ~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py;
@@ -73,9 +73,9 @@ cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpac
 cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc;
 cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;chmod +x *;cd ~/; ) &> /dev/null & spin;
 #Termux Banner Update
-echo -e "$CC [$YY*$GG] Termux banner updating...$YY";
+echo -e "$CC [$YY*$GG] Termux banner updating...";
 ( cd ~/Tdr-Tool/Terpack/;cp bash.bashrc /data/data/com.termux/files/usr/etc;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
 #Termux Key Update
-echo -e "$CC [$YY*$GG] Termux key updating...$YY";
+echo -e "$CC [$YY*$GG] Termux key updating...";
 ( cd ~/Tdr-Tool/Terpack/;cp termux.properties ~/.termux;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Update successful.\n"
