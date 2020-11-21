@@ -8,7 +8,7 @@ while [ "$(ps a | awk '{print $1}' | grep $pid)" ]; do
 
 for i in "${spinner[@]}"
 do
-  echo -ne "\r$CC [$YY↓$CC]$YY Downloading please wait...$CC $i$CC】";
+  echo -ne "\r$CC [$YY↓$CC]$YY Downloading please wait...$CC 【$i$CC】";
   sleep $delay
   printf "\b\b\b\b\b\b\b\b";
 done
