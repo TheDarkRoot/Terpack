@@ -37,3 +37,13 @@ apt install tor privoxy zsh wget git -y
 ```
 $ curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x Terpack.sh;bash Terpack.sh
 ```
+
+# Screenshot
+
+[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2001.png" width=250>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2001.png)
+[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2002.png" width=250>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2002.png)
+[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2003.png" width=250>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2003.png)
+[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2006.png" width=250>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2006.png)
+[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2008.png" width=250>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2008.png)
+[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2009.png" width=250>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2009.png)
+[<img src="https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2010.png" width=250>](https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Images/TheDarkRoot/Screenshots/Terpack%2010.png)
