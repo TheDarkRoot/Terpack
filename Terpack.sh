@@ -63,19 +63,16 @@ echo -e "$CC [$YY*$CC]$GG Tor installing...";
 #TheDarkRoot Repositories Download
 echo -e "$CC [$YY*$CC]$GG Tdr-Tool installing...";
 ( cd ~/;rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux;
-cd ~/Tdr-Tool;mkdir AnonSMS;mkdir Hasher;mkdir Hashgen;mkdir UserID;mkdir Terpack;
+cd ~/Tdr-Tool;mkdir AnonSMS;mkdir Hasher;mkdir Hashgen;mkdir UserID;
 cd ~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py;
 cd ~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt;chmod +x *;
 cd ~/Tdr-Tool/Hashgen/;curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o Hashgen.py;chmod +x *;
 cd ~/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *;
-cd ~/Tdr-Tool/AnonSMS/;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *;
-cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;
-cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/bash.bashrc -o bash.bashrc;
-cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/termux.properties -o termux.properties;chmod +x *;cd ~/; ) &> /dev/null & spin;
+cd ~/Tdr-Tool/AnonSMS/;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *; ) &> /dev/null & spin;
 #Termux Banner Update
 echo -e "$CC [$YY*$CC]$GG Termux banner updating...";
-( cd ~/Tdr-Tool/Terpack/;cp bash.bashrc /data/data/com.termux/files/usr/etc;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
+( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
 #Termux Key Update
 echo -e "$CC [$YY*$CC]$GG Termux key updating...";
-( cd ~/Tdr-Tool/Terpack/;cp termux.properties ~/.termux;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
+( cd ~/.termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Update successful.\n"
