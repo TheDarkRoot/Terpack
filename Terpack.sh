@@ -53,7 +53,7 @@ $GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
 $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
 echo -e "$CC [$YY*$CC]$GG Termux setup storage...";
-( termux-setup-storage; ) &> /dev/null & spin;
+( rm -rf storage;termux-setup-storage; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Pkg installing...";
 ( pkg install git -y;pkg install python -y;pkg install python2;pkg install ruby -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install toilet -y;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot;pkg install crunch;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install openssh -y;pkg install zsh;pkg install termux-api; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Pip installing...";
