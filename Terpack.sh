@@ -63,13 +63,16 @@ echo -e "$CC [$YY*$CC]$GG Tor installing...";
 #TheDarkRoot Repositories Download
 echo -e "$CC [$YY*$CC]$GG Tdr-Tool installing...";
 ( cd ~/;rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux;
-cd ~/Tdr-Tool;mkdir AnonSMS;mkdir Hasher;mkdir Hashgen;mkdir UserID;
+cd ~/Tdr-Tool;mkdir AnonSMS;mkdir Hasher;mkdir Hashgen;mkdir ParrotOS-T;mkdir Terkey;mkdir Terpack;mkdir UserID;
 cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/Tdr-Tool/main/Tdr-Tool.sh -o Tdr-Tool.sh;chmod +x *;
-cd ~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py;
+cd ~/Tdr-Tool/AnonSMS/;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *;
+cd ~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py;chmod +x *;
 cd ~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Wordlist.txt -o Wordlist.txt;chmod +x *;
 cd ~/Tdr-Tool/Hashgen/;curl https://raw.githubusercontent.com/TheDarkRoot/Hashgen/master/Hashgen.py -o Hashgen.py;chmod +x *;
-cd ~/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *;
-cd ~/Tdr-Tool/AnonSMS/;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *; ) &> /dev/null & spin;
+cd ~/Tdr-Tool/ParrotOS-T/;curl https://raw.githubusercontent.com/TheDarkRoot/ParrotOS-T/main/ParrotOS-T.sh -o ParrotOS-T.sh;chmod +x *;
+cd ~/Tdr-Tool/Terkey/;curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.sh -o Terkey.sh;chmod +x *;
+cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x *;
+cd ~/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *; ) &> /dev/null & spin;
 #Termux Banner Update
 echo -e "$CC [$YY*$CC]$GG Termux banner updating...";
 ( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
