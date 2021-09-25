@@ -72,7 +72,16 @@ cd ~/Tdr-Tool/Hashgen/;curl https://raw.githubusercontent.com/TheDarkRoot/Hashge
 cd ~/Tdr-Tool/ParrotOS-T/;curl https://raw.githubusercontent.com/TheDarkRoot/ParrotOS-T/main/ParrotOS-T.sh -o ParrotOS-T.sh;chmod +x *;
 cd ~/Tdr-Tool/Terkey/;curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.sh -o Terkey.sh;chmod +x *;
 cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x *;
-cd ~/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *; ) &> /dev/null & spin;
+cd ~/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/CiKu370/OSIF.git;
+cd ~/Hack-Tool/;git clone https://github.com/lulz3xploit/LittleBrother.git;
+cd ~/Hack-Tool/;git clone https://github.com/TheSpeedX/TBomb.git;
+cd ~/Hack-Tool/;git clone https://github.com/xHak9x/SocialPhish.git;
+cd ~/Hack-Tool/;git clone https://github.com/Cyb0r9/SocialBox.git;
+cd ~/Hack-Tool/;git clone https://github.com/thewhiteh4t/seeker.git;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/nexphisher.git;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/fake-mailer.git;
+cd ~/Hack-Tool/;git clone https://github.com/lightos/credmap.git; ) &> /dev/null & spin;
 #Termux Banner Update
 echo -e "$CC [$YY*$CC]$GG Termux banner updating...";
 ( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
