@@ -34,13 +34,13 @@ C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
 clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";apt update;apt upgrade -y;cd ~/;rm -rf Terpack.sh;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x *;clear;
 #Terpack Banner
-echo -e "\n$CC #######$YY ##################$CC #######$YY ####################
-$CC    #    #####  #####          #     ####   ####  #
-$CC    #    #    # #    #         #    #    # #    # #
-$CC    #    #    # #    #  #####  #    #    # #    # #
-$CC    #    #    # #####          #    #    # #    # #
-$CC    #    #    # #   #          #    #    # #    # #
-$CC    #    #####  #    #         #     ####   ####  ######
+echo -e "\n$CC #######$YY ##################$CC ######$YY #####################
+$CC    #    ###### #####       #     #  ####   ####  #    #
+$CC    #    #      #    #      #     # #    # #    # #   #
+$CC    #    ###### #    #  ##  ######  #    # #      ####
+$CC    #    #      #####       #       ###### #      #  #
+$CC    #    #      #   #       #       #    # #    # #   #
+$CC    #    ###### #    #      #       #    #  ####  #    #
 $YY ####################[$GG TheDarkRoot$YY ]####################\n
 $GG 0{======================$WW INFO $GG=======================}0
 $GG |$YY [$CC=$YY]$WW Name     $CC:$WW Terpack$GG                              |
