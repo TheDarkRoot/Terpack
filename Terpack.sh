@@ -55,7 +55,7 @@ $GG 0{===================================================}0\n"
 echo -e "$CC [$YY*$CC]$GG Termux setup storage...";
 ( rm -rf storage;termux-setup-storage; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Pkg installing...";
-( pkg install git -y;pkg install python -y;pkg install python2;pkg install ruby -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot;pkg install crunch;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install openssh -y;apt install openssl-tool -y;pkg install zsh;pkg install sl;pkg install tmate -y;pkg install sl;pkg install coreutils;apt install toilet -y;apt install w3m;apt install bash -y;pkg install termux-api; ) &> /dev/null & spin;
+( pkg install git -y;pkg install toilet -y;pkg install python -y;pkg install python2;pkg install ruby -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot;pkg install crunch;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install openssh -y;apt install openssl-tool -y;pkg install zsh;pkg install sl;pkg install tmate -y;pkg install sl;pkg install coreutils;apt install toilet -y;apt install w3m;apt install bash -y;pkg install termux-api; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Pip installing...";
 ( gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip2 install passlib;pip2 install progressbar;pip install pillow;python -m pip install requests; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Tor installing...";
