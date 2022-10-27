@@ -57,7 +57,7 @@ echo -e "$CC [$YY*$CC]$GG Termux setup storage...";
 echo -e "$CC [$YY*$CC]$GG Pkg installing...";
 ( pkg install ruby -y;pkg install git -y;pkg install python -y;pkg install python2;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot;pkg install crunch;pkg install neofetch;pkg install nano;pkg install cmatrix;pkg install toilet -y;pkg install openssh -y;apt install openssl-tool -y;pkg install zsh;pkg install sl;pkg install tmate -y;apt install bash -y;pkg install termux-api; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Pip installing...";
-( gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip2 install passlib;pip2 install progressbar;pip install pillow;python -m pip install requests; ) &> /dev/null & spin;
+( gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip2 install passlib;pip2 install progressbar;pip install pillow;pip install speedtest-cli;python -m pip install requests; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Tor installing...";
 ( apt install tor privoxy zsh wget git -y; ) &> /dev/null & spin;
 #TheDarkRoot Repositories Download
