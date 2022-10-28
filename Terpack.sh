@@ -88,4 +88,3 @@ echo -e "$CC [$YY*$CC]$GG Termux banner updating...";
 echo -e "$CC [$YY*$CC]$GG Termux key updating...";
 ( cd ~/.termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Update successful.\n"
-termux-reload-settings
