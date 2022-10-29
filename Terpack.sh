@@ -55,7 +55,7 @@ $GG 0{===================================================}0\n"
 echo -e "$CC [$YY*$CC]$GG Termux setup storage...";
 ( rm -rf storage;termux-setup-storage; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Pkg installing...";
-( pkg install ruby -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install php -y;pkg install cowsay -y;pkg install figlet;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot -y;pkg install crunch;pkg install neofetch;pkg install nodejs -y;pkg install nodejs-lts -y;pkg install nano;pkg install cmatrix;pkg install toilet -y;pkg install zsh -y;pkg install sl;pkg install tmate -y;apt install bash -y;pkg install tur-repo;pkg install zphisher -y;pkg install termux-api;pkg install openssh -y;apt install openssl-tool -y; ) &> /dev/null & spin;
+( pkg install ruby -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install php -y;pkg install zip -y;pkg install unzip -y;pkg install cowsay -y;pkg install figlet;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot -y;pkg install crunch;pkg install neofetch;pkg install nodejs -y;pkg install nodejs-lts -y;pkg install nano;pkg install cmatrix;pkg install toilet -y;pkg install zsh -y;pkg install sl;pkg install tmate -y;apt install bash -y;pkg install tur-repo;pkg install zphisher -y;pkg install termux-api;pkg install openssh -y;apt install openssl-tool -y; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Pip installing...";
 ( gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip install passlib;pip2 install passlib;pip install progressbar;pip2 install progressbar;pip install pillow;pip2 install pillow;pip install speedtest-cli;npm install --global speed-test;python -m pip install requests; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Tor installing...";
@@ -74,14 +74,16 @@ cd ~/Tdr-Tool/TheDarkRoot-T/;curl https://raw.githubusercontent.com/TheDarkRoot/
 cd ~/Tdr-Tool/Terkey/;curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.sh -o Terkey.sh;chmod +x *;
 cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x *;
 cd ~/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/CiKu370/OSIF.git;cd OSIF;pip2 install -r requirements.txt;
-cd ~/Hack-Tool/;git clone https://github.com/lulz3xploit/LittleBrother.git;cd LittleBrother;python3 -m pip install -r requirements.txt;
-cd ~/Hack-Tool/;git clone https://github.com/TheSpeedX/TBomb.git;cd TBomb;pip3 install tbomb;
-cd ~/Hack-Tool/;git clone https://github.com/xHak9x/SocialPhish.git;cd SocialPhish;chmod +x socialphish.sh;
-cd ~/Hack-Tool/;git clone https://github.com/Cyb0r9/SocialBox.git;cd SocialBox;chmod +x *.sh;
-cd ~/Hack-Tool/;git clone https://github.com/thewhiteh4t/seeker.git;cd seeker;pip3 install requests;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/nexphisher.git;cd nexphisher;bash setup;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/fake-mailer.git; ) &> /dev/null & spin;
+cd ~/Hack-Tool/;git clone https://github.com/CiKu370/OSIF.git;cd OSIF;pip2 install -r requirements.txt;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/lulz3xploit/LittleBrother.git;cd LittleBrother;python3 -m pip install -r requirements.txt;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/TheSpeedX/TBomb.git;cd TBomb;pip3 install tbomb;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/xHak9x/SocialPhish.git;cd SocialPhish;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/Cyb0r9/SocialBox.git;cd SocialBox;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/thewhiteh4t/seeker.git;cd seeker;pip3 install requests;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/nexphisher.git;cd nexphisher;bash setup;bash tmux_setup;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/zphisher.git;cd zphisher;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/track-ip.git;cd track-ip;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/fake-mailer.git;chmod +x *; ) &> /dev/null & spin;
 #Termux Banner Update
 echo -e "$CC [$YY*$CC]$GG Termux banner updating...";
 ( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
