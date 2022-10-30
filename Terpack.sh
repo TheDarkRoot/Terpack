@@ -83,7 +83,9 @@ cd ~/Hack-Tool/;git clone https://github.com/thewhiteh4t/seeker.git;cd seeker;pi
 cd ~/Hack-Tool/;git clone https://github.com/htr-tech/nexphisher.git;cd nexphisher;bash setup;bash tmux_setup;chmod +x *;
 cd ~/Hack-Tool/;git clone https://github.com/htr-tech/zphisher.git;cd zphisher;chmod +x *;
 cd ~/Hack-Tool/;git clone https://github.com/htr-tech/track-ip.git;cd track-ip;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/fake-mailer.git;chmod +x *; ) &> /dev/null & spin;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/fake-mailer.git;cd fake-mailer;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/shorturl.git;cd shorturl;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/htr-tech/unfollow-plus.git;cd unfollow-plus;chmod +x *; ) &> /dev/null & spin;
 #Termux Banner Update
 echo -e "$CC [$YY*$CC]$GG Termux banner updating...";
 ( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/;termux-reload-settings; ) &> /dev/null & spin;
