@@ -57,13 +57,13 @@ echo -e "$CC [$YY*$CC]$GG Termux setup storage...";
 echo -e "$CC [$YY*$CC]$GG Pkg installing...";
 ( pkg install ruby -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install php -y;pkg install zip -y;pkg install unzip -y;pkg install cowsay -y;pkg install figlet;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot -y;pkg install crunch;pkg install neofetch;pkg install nodejs -y;pkg install nodejs-lts -y;pkg install nano;pkg install cmatrix;pkg install toilet -y;pkg install zsh -y;pkg install sl;pkg install tmate -y;apt install bash -y;pkg install tur-repo;pkg install zphisher -y;pkg install termux-api;pkg install openssh -y;apt install openssl-tool -y; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Pip installing...";
-( gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip install passlib;pip2 install passlib;pip install progressbar;pip2 install progressbar;pip install pillow;pip2 install pillow;pip install speedtest-cli;pip install termcolor;npm install --global speed-test;python -m pip install requests; ) &> /dev/null & spin;
+( gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip install passlib;pip2 install passlib;pip install progressbar;pip2 install progressbar;pip install pillow;pip2 install pillow;pip install speedtest-cli;pip install termcolor;npm install readline-sync;npm install;npm install --global speed-test;python -m pip install requests; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Tor installing...";
 ( apt install tor privoxy zsh wget git -y; ) &> /dev/null & spin;
 #TheDarkRoot Repositories Download
 echo -e "$CC [$YY*$CC]$GG Tdr-Tool installing...";
 ( cd ~/;rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux;
-cd ~/Tdr-Tool;mkdir AnonSMS;mkdir Hasher;mkdir Hashgen;mkdir ParrotOS-T;mkdir TheDarkRoot-T;mkdir Terkey;mkdir Terpack;mkdir UserID;
+cd ~/Tdr-Tool;mkdir AnonSMS;mkdir Hasher;mkdir Hashgen;mkdir ParrotOS-T;mkdir TheDarkRoot-T;mkdir Terkey;mkdir Terpack;mkdir Tertest;mkdir UserID;
 cd ~/Tdr-Tool;curl https://raw.githubusercontent.com/TheDarkRoot/Tdr-Tool/master/Tdr-Tool.sh -o Tdr-Tool.sh;chmod +x *;
 cd ~/Tdr-Tool/AnonSMS/;curl https://raw.githubusercontent.com/TheDarkRoot/AnonSMS/master/AnonSMS.py -o AnonSMS.py;chmod +x *;
 cd ~/Tdr-Tool/Hasher/;curl https://raw.githubusercontent.com/TheDarkRoot/Hasher/master/Hasher.py -o Hasher.py;chmod +x *;
@@ -73,6 +73,7 @@ cd ~/Tdr-Tool/ParrotOS-T/;curl https://raw.githubusercontent.com/TheDarkRoot/Par
 cd ~/Tdr-Tool/TheDarkRoot-T/;curl https://raw.githubusercontent.com/TheDarkRoot/TheDarkRoot-T/master/TheDarkRoot-T.sh -o TheDarkRoot-T.sh;chmod +x *;
 cd ~/Tdr-Tool/Terkey/;curl https://raw.githubusercontent.com/TheDarkRoot/Terkey/master/Terkey.sh -o Terkey.sh;chmod +x *;
 cd ~/Tdr-Tool/Terpack/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x *;
+cd ~/Tdr-Tool/Tertest/;curl https://raw.githubusercontent.com/TheDarkRoot/Tertest/master/Tertest.py -o Tertest.py;chmod +x *;
 cd ~/Tdr-Tool/UserID/;curl https://raw.githubusercontent.com/TheDarkRoot/UserID/master/UserID.sh -o UserID.sh;chmod +x *;
 cd ~/Hack-Tool/;git clone https://github.com/CiKu370/OSIF.git;cd OSIF;pip2 install -r requirements.txt;chmod +x *;
 cd ~/Hack-Tool/;git clone https://github.com/lulz3xploit/LittleBrother.git;cd LittleBrother;python3 -m pip install -r requirements.txt;chmod +x *;
@@ -85,6 +86,7 @@ cd ~/Hack-Tool/;git clone https://github.com/htr-tech/zphisher.git;cd zphisher;c
 cd ~/Hack-Tool/;git clone https://github.com/htr-tech/track-ip.git;cd track-ip;chmod +x *;
 cd ~/Hack-Tool/;git clone https://github.com/htr-tech/fake-mailer.git;cd fake-mailer;chmod +x *;
 cd ~/Hack-Tool/;git clone https://github.com/htr-tech/shorturl.git;cd shorturl;chmod +x *;
+cd ~/Hack-Tool/;git clone https://github.com/fastuptime/Fast_Sms_Bomber.git;cd Fast_Sms_Bomber;chmod +x *;
 cd ~/Hack-Tool/;git clone https://github.com/htr-tech/unfollow-plus.git;cd unfollow-plus;chmod +x *; ) &> /dev/null & spin;
 #Termux Banner Update
 echo -e "$CC [$YY*$CC]$GG Termux banner updating...";
