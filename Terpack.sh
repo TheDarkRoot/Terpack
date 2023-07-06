@@ -52,13 +52,13 @@ $GG |$YY [$CC=$YY]$WW Github   $CC:$WW https://github.com/TheDarkRoot$GG       |
 $GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
 $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
+#Termux Pkg Install
 echo -e "$CC [$YY*$CC]$GG Pkg installing...";
 ( pkg install ruby -y;pkg install git -y;pkg install python -y;pkg install python2 -y;pkg install python3 -y;pkg install php -y;pkg install zip -y;pkg install unzip -y;pkg install cowsay -y;pkg install figlet;pkg install wget -y;pkg install curl -y;pkg install vim -y;pkg install proot -y;pkg install crunch;pkg install neofetch;pkg install nodejs -y;pkg install nodejs-lts -y;pkg install nano;pkg install cmatrix;pkg install toilet -y;pkg install zsh -y;pkg install sl;pkg install tmate -y;apt install bash -y;pkg install tur-repo;pkg install zphisher -y;pkg install termux-api;pkg install termux-tools;pkg install termux-notification;pkg install termux-tts-speak;pkg install termux-media-player;pkg install play-audio;pkg install mpv;pkg install openssh -y;apt install openssl-tool -y; ) &> /dev/null & spin;
+#Termux Pip Install
 echo -e "$CC [$YY*$CC]$GG Pip installing...";
 ( gem install lolcat;pip install --upgrade pip;pip2 install --upgrade pip;pip install bs4;pip2 install bs4;pip install requests;pip2 install requests;pip install mechanize;pip2 install mechanize;pip install passlib;pip2 install passlib;pip install progressbar;pip2 install progressbar;pip install pillow;pip2 install pillow;pip install termcolor speedtest-cli;npm install readline-sync;npm install;npm install --global speed-test;python -m pip install requests; ) &> /dev/null & spin;
-echo -e "$CC [$YY*$CC]$GG Tor installing...";
-( apt install tor privoxy zsh wget git -y; ) &> /dev/null & spin;
-#TheDarkRoot Repositories Download
+#TheDarkroot Repositories Download
 echo -e "$CC [$YY*$CC]$GG Tdr-Tool installing...";
 ( cd ~/;rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Tdr-Tool;mkdir Hack-Tool;mkdir .termux;
 cd ~/Tdr-Tool;mkdir AnonSMS;mkdir Hasher;mkdir Hashgen;mkdir ParrotOS-T;mkdir TheDarkRoot-T;mkdir Terkey;mkdir Terpack;mkdir Tertest;mkdir UserID;
@@ -88,5 +88,5 @@ cd ~/Hack-Tool/;git clone https://github.com/fastuptime/Fast_Sms_Bomber.git;cd F
 cd ~/Hack-Tool/;git clone https://github.com/htr-tech/unfollow-plus.git;cd unfollow-plus;chmod +x *; ) &> /dev/null & spin;
 #Termux Setup Update
 echo -e "$CC [$YY*$CC]$GG Termux setup updating...";
-( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/.termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;rm -rf storage;termux-setup-storage;termux-reload-settings; ) &> /dev/null & spin;
+( apt install tor privoxy zsh wget git -y;cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/.termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;rm -rf storage;termux-setup-storage;termux-reload-settings; ) &> /dev/null & spin;
 echo -e "$CC [$YY*$CC]$GG Update successful.\n"
