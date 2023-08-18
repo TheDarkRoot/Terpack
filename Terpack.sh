@@ -72,20 +72,7 @@ cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Terpack.git;cd Terpack;c
 cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Tertest.git;cd Tertest;chmod +x *;
 cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Tertext.git;cd Tertext;chmod +x *;
 cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/UserID.git;cd UserID;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/x.git;cd x;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/CiKu370/OSIF.git;cd OSIF;pip2 install -r requirements.txt;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/lulz3xploit/LittleBrother.git;cd LittleBrother;python3 -m pip install -r requirements.txt;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/TheSpeedX/TBomb.git;cd TBomb;pip3 install tbomb;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/xHak9x/SocialPhish.git;cd SocialPhish;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/Cyb0r9/SocialBox.git;cd SocialBox;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/thewhiteh4t/seeker.git;cd seeker;pip3 install requests;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/nexphisher.git;cd nexphisher;bash setup;bash tmux_setup;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/zphisher.git;cd zphisher;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/track-ip.git;cd track-ip;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/fake-mailer.git;cd fake-mailer;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/shorturl.git;cd shorturl;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/htr-tech/unfollow-plus.git;cd unfollow-plus;chmod +x *;
-cd ~/Hack-Tool/;git clone https://github.com/fastuptime/Fast_Sms_Bomber.git;cd Fast_Sms_Bomber;chmod +x *; ) &> /dev/null & spin;
+cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/x.git;cd x;chmod +x *; ) &> /dev/null & spin;
 #Termux Setups Update
 echo -e "$CC [$YY*$CC]$GG Termux Setup Updating...";
 ( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/.termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;rm -rf storage;termux-setup-storage;termux-reload-settings; ) &> /dev/null & spin;
