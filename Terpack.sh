@@ -1,4 +1,5 @@
 #!/bin/bash
+# -*- coding: utf-8 -*-
 spin () {
 local pid=$!
 local delay=0.10
@@ -41,7 +42,7 @@ $CC    #    ###### #    #  ##  ######  #    # #      ####
 $CC    #    #      #####       #       ###### #      #  #
 $CC    #    #      #   #       #       #    # #    # #   #
 $CC    #    ###### #    #      #       #    #  ####  #    #
-$YY ####################[$GG TheDarkRoot$YY ]####################\n
+$YY ###################[›$GG TheDarkRoot $YY‹]###################\n
 $GG 0{======================$WW INFO $GG=======================}0
 $GG |$YY [$CC=$YY]$WW Name     $CC:$WW Terpack$GG                              |
 $GG |$YY [$CC=$YY]$WW Code     $CC:$WW Shell$GG                                |
@@ -53,13 +54,13 @@ $GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
 $GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
 #Termux Packages Installing
-echo -e "$CC [$YY*$CC]$GG Packages Installing...";
+echo -e "$CC [$YY»$CC]$GG Packages Installing...";
 ( pkg install ruby git python python2 python3 python-pip php zip unzip cowsay figlet wget curl vim proot crunch neofetch nano cmatrix toilet zsh sl tmate bash tor privoxy -y;pkg install termux-api termux-tools play-audio mpv openssh openssl-tool crunch -y; ) &> /dev/null & spin;
 #Termux Tools Installing
-echo -e "$CC [$YY*$CC]$GG Tools Installing...";
+echo -e "$CC [$YY»$CC]$GG Tools Installing...";
 ( gem install lolcat;pip3 install --upgrade pip;pip3 install bs4 requests mechanize passlib progressbar2 pillow termcolor speedtest speedtest-cli;pkg install nodejs -y;pkg install nodejs-lts -y;npm install readline-sync;npm install;npm install --global speed-test; ) &> /dev/null & spin;
 #TheDarkroot Repositories Download
-echo -e "$CC [$YY*$CC]$GG Tdr-Tool Installing...";
+echo -e "$CC [$YY»$CC]$GG Tdr-Tool Installing...";
 ( cd ~/;rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Hack-Tool;mkdir .termux;
 cd ~/;git clone https://github.com/TheDarkRoot/Tdr-Tool.git;cd Tdr-Tool;chmod +x *;
 cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/AnonSMS.git;cd AnonSMS;chmod +x *;
@@ -74,6 +75,6 @@ cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Tertext.git;cd Tertext;c
 cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/UserID.git;cd UserID;chmod +x *;
 cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/x.git;cd x;chmod +x *; ) &> /dev/null & spin;
 #Termux Setups Update
-echo -e "$CC [$YY*$CC]$GG Termux Setup Updating...";
+echo -e "$CC [$YY»$CC]$GG Termux Setup Updating...";
 ( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/.termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;rm -rf storage;termux-setup-storage;termux-reload-settings; ) &> /dev/null & spin;
-echo -e "$CC [$YY*$CC]$GG Update Successful.\n"
+echo -e "$CC [$YY»$CC]$GG Update Successful.\n"
