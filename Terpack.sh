@@ -33,9 +33,10 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
-clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";rm -rf Terpack.sh;cd ~/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x Terpack.sh;apt update -y;apt upgrade -y;clear;
+clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";rm -rf Terpack.sh;cd ~/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x Terpack.sh;apt update -y;apt upgrade -y;
 #Terpack Banner
-echo -e "\n$CC #######$YY ##################$CC ######$YY #####################
+clear;echo -e "
+$CC #######$YY ##################$CC ######$YY #####################
 $CC    #    ###### #####       #     #  ####   ####  #    #
 $CC    #    #      #    #      #     # #    # #    # #   #
 $CC    #    ###### #    #  ##  ######  #    # #      ####
@@ -61,19 +62,7 @@ echo -e "$CC [$YY»$CC]$GG Tools Installing...";
 ( gem install lolcat;pip3 install --upgrade pip;pip3 install bs4 requests mechanize passlib progressbar2 pillow termcolor speedtest speedtest-cli;pkg install nodejs -y;pkg install nodejs-lts -y;npm install readline-sync;npm install;npm install --global speed-test; ) &> /dev/null & spin;
 #TheDarkroot Repositories Download
 echo -e "$CC [$YY»$CC]$GG Tdr-Tool Installing...";
-( cd ~/;rm -rf Tdr-Tool;rm -rf Hack-Tool;mkdir Hack-Tool;mkdir .termux;
-cd ~/;git clone https://github.com/TheDarkRoot/Tdr-Tool.git;cd Tdr-Tool;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/AnonSMS.git;cd AnonSMS;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Hasher.git;cd Hasher;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Hashgen.git;cd Hashgen;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/ParrotOS-T.git;cd ParrotOS-T;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/TheDarkRoot-T.git;cd TheDarkRoot-T;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Terkey.git;cd Terkey;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Terpack.git;cd Terpack;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Tertest.git;cd Tertest;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/Tertext.git;cd Tertext;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/UserID.git;cd UserID;chmod +x *;
-cd ~/Tdr-Tool/;git clone https://github.com/TheDarkRoot/x.git;cd x;chmod +x *; ) &> /dev/null & spin;
+( cd ~/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Tdr-Tool.termux -o Tdr-Tool.sh;chmod +x Tdr-Tool.sh;bash Tdr-Tool.sh;cd ~/;rm -rf Tdr-Tool.sh; ) &> /dev/null & spin;
 #Termux Setups Update
 echo -e "$CC [$YY»$CC]$GG Termux Setup Updating...";
 ( cd /data/data/com.termux/files/usr/etc/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/TheDarkRoot.termux -o bash.bashrc;cd ~/.termux/;curl https://raw.githubusercontent.com/TheDarkRoot/FileStore/master/Software%20Files/Terkey.termux -o termux.properties;cd ~/;rm -rf storage;termux-setup-storage;termux-reload-settings; ) &> /dev/null & spin;
