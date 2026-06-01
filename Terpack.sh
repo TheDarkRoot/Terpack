@@ -49,10 +49,8 @@ $GG |$YY [$CC=$YY]$WW Name     $CC:$WW Terpack$GG                              |
 $GG |$YY [$CC=$YY]$WW Code     $CC:$WW Shell$GG                                |
 $GG |$YY [$CC=$YY]$WW Version  $CC:$WW v1.2.7 (Alpha)$GG                       |
 $GG |$YY [$CC=$YY]$WW Author   $CC:$WW TheDarkRoot$GG                          |
-$GG |$YY [$CC=$YY]$WW Email    $CC:$WW 7H3D4RKR007@gmail.com$GG                |
 $GG |$YY [$CC=$YY]$WW Github   $CC:$WW https://github.com/TheDarkRoot$GG       |
 $GG |$YY [$CC=$YY]$WW Telegram $CC:$WW @TheDarkRoot (t.me/TheDarkRoot)$GG      |
-$GG |$YY [$CC=$YY]$WW Team     $CC:$WW TurkHackTeam (www.turkhackteam.org)$GG  |
 $GG 0{===================================================}0\n"
 #Termux Packages Installing
 echo -e "$CC [$YY»$CC]$GG Packages Installing...";
