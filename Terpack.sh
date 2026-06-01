@@ -33,7 +33,7 @@ W="\033[0;1m"   # White
 R="\033[31;1m"  # Red
 C="\033[36;1m"  # Cyan
 M="\033[35;1m"  # Magenta
-clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";rm -rf Terpack.sh;cd ~/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x Terpack.sh;apt update -y;apt upgrade -y;
+cd;clear;echo -e "$CC\n [$YY↓$CC]$GG Updating...\n";rm -rf Terpack.sh;cd ~/;curl https://raw.githubusercontent.com/TheDarkRoot/Terpack/master/Terpack.sh -o Terpack.sh;chmod +x Terpack.sh;apt update -y;apt upgrade -y;
 #Terpack Banner
 clear;echo -e "
 $CC #######$YY ##################$CC ######$YY #####################
